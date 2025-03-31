@@ -1,0 +1,7 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check ^= input.charAt(i);  // XOR each character's ASCII value into check
+    }
+    return "Check sum is " + (char)(check % 256);  // Checksum as modulus 256 cast to character
+}

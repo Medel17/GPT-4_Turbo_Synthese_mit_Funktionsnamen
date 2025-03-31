@@ -1,0 +1,10 @@
+public static String SquareDigits(int x) {
+    String result = "";
+    while (x > 0) {
+        int digit = x % 10; // hole1_tests cover extraction of the least significant digit
+        int square = digit * digit; // hole2_tests cover squaring the digit
+        result = square + result; // hole3_tests cover appending squared value in reverse order
+        x = x / 10;  // hole4_tests cover truncating the last digit
+    }
+    return result;
+}

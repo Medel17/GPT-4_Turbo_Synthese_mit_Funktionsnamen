@@ -1,0 +1,13 @@
+public static String SmallOrLarge(int n) {
+		String result = "";
+		if (n < 1000) {
+			result = "small";
+		}
+		if (n >= 1000 && n <= 2000) {
+			result = "";
+		}
+		if (n > 2000) {
+			result = "large";
+		}
+		return result;
+	}

@@ -1,0 +1,8 @@
+Input: -2900  - Expected Output: -100
+Input: -5  - Expected Output: -5
+Input: -1704  - Expected Output: -100
+Input: 1832  - Expected Output: 100
+Input: 1173  - Expected Output: 100
+Input: 1609  - Expected Output: 100
+Input: -672  - Expected Output: -100
+Input: 26  - Expected Output: 26

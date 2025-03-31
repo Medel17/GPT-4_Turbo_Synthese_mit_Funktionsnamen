@@ -1,0 +1,8 @@
+public static int CountOdds(int[] arr) {
+	int count = 0;
+	for (int element : arr) {
+		// ### Missing section
+
+        // ### End of Missing section
+	return count;
+}

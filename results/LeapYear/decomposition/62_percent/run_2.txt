@@ -1,0 +1,6 @@
+public static boolean LeapYear(int y) {
+	if (y < 1) return false;
+	if (y % 4 != 0) return false;
+	if (y % 100 == 0 && y % 400 != 0) return false;
+	return true;
+}

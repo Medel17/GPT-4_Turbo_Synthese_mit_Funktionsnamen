@@ -1,0 +1,8 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check ^= (int) input.charAt(i);
+        check = (check << 1) | (check >>> 31);  // Left rotate the bits of check
+    }
+    return "Check sum is " + (char)check;
+}

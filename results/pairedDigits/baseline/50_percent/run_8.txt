@@ -1,0 +1,17 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // Iterate only if the string has at least one pair to check
+    if (input.length() < 2) {
+        return sum;
+    }
+
+    char[] digits = input.toCharArray();
+    for (int i = 0; i < digits.length - 1; i++) {
+        if (digits[i] == digits[i + 1]) {
+            // Convert the paired character to integer and add to sum
+            sum += Character.getNumericValue(digits[i]);
+        }
+    }
+
+    return sum;
+}

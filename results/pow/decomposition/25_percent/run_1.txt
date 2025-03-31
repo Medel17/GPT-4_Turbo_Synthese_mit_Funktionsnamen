@@ -1,0 +1,16 @@
+public static int pow(int x, int n) {
+    if (x == 0 && n == 0) return 0;  // Handling 0^0 as special case return 0
+    int k = n;
+    int p = x;
+    int y = 1;
+    while (k > 0) {
+        if (k % 2 == 0) {
+            p = p * p;   // Squaring p when k is even
+            k = k / 2;   // Dividing k by 2
+        } else {
+            y = y * p;   // Multiplying y by p when k is odd
+            k = k - 1;   // Decreasing k by 1
+        }
+    }
+    return y;
+}

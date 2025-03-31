@@ -1,0 +1,3 @@
+Input: f = 5 - Expected Output: f = 11
+Input: f = 11 - Expected Output: f = 17
+Input: f = 100 - Expected Output: f = 106

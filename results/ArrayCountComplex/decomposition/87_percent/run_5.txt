@@ -1,0 +1,26 @@
+public static int ArrayCountComplex(int[] a) {
+    int count1 = 0;
+    for (int element : a) {
+        if (element < 0) {
+            count1++;
+        }
+        if (element < -9) {
+            count1++;
+        }
+    }
+    
+    int count2 = 0;
+    for (int element : a) {
+        if (element % 2 == 0) {
+            count2++;
+        }
+        if (element > 0) {
+            count2++;
+        }
+    }
+    int result = count1 - count2;
+    if (result < 0) {
+        result = 2;
+    }
+    return result;
+}

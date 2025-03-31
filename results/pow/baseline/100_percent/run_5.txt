@@ -1,0 +1,14 @@
+public static int pow(int x, int n) {
+    if (n < 0) {
+        return 0; // In line with given unit tests where negative exponents result in 0
+    }
+    int y = 1;
+    while (n != 0) {
+        if ((n & 1) != 0) {
+            y = y * x;
+        }
+        x = x * x;
+        n = n >> 1;
+    }
+    return y;
+}

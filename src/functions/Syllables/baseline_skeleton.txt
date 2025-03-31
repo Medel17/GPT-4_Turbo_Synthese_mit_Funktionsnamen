@@ -1,0 +1,9 @@
+public static String Syllables(String input) {
+	int count = 0;
+	for (int i = 0; i < input.length(); i++) {
+		// ### Missing section
+
+	}
+    
+	// ### End of Missing section
+}

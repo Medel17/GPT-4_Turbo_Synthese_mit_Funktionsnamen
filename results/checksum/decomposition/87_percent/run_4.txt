@@ -1,0 +1,25 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        // ### HOLE BEGIN clamp1
+        int c = input.charAt(i);
+        // ### HOLE END
+        // ### HOLE BEGIN clamp2
+        check = check + c;
+        // ### HOLE END
+    }
+    // ### HOLE BEGIN clamp3
+    check = check % 256;
+    // ### HOLE END
+    // ### HOLE BEGIN clamp4
+    char csum = (char) check;
+    // ### HOLE END
+    // ### HOLE BEGIN clamp5
+    if (csum < ' ' || csum > '~') {
+        csum = (char) ('A' + (csum % 26));
+    }
+    // ### HOLE END
+    // ### HOLE BEGIN clamp6
+    return "Check sum is " + csum;
+    // ### HOLE END
+}

@@ -1,0 +1,13 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    // Calculate the sum of the largest values from the pairs (a1, a2) and (b1, b2)
+    int maxA = Math.max(a1, a2);
+    int maxB = Math.max(b1, b2);
+    
+    // Calculate the sum of sums from all elements
+    int sumAll = a1 + a2 + b1 + b2;
+    
+    // Calculate the final result as the sum of the max values minus their sum consequently
+    int result = Math.abs((maxA + maxB) - sumAll);
+    
+    return result;
+}

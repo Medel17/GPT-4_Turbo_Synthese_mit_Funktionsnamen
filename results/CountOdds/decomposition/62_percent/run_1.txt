@@ -1,0 +1,11 @@
+public static int CountOdds(int[] arr) {
+	int count = 0;
+	for (int element : arr) {
+		// ### HOLE BEGIN clamp1
+		if (Math.abs(element) % 2 == 1) {
+		   count++;
+		}
+		// ### HOLE END
+	}
+	return count;
+}

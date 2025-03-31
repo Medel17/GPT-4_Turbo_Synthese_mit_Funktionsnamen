@@ -1,0 +1,16 @@
+public static String syllables(String input) {
+    int count = 0;
+    for (int i = 0; i < input.length(); i++) {
+        // ### HOLE BEGIN clamp1
+        char c = input.charAt(i);
+        // ### HOLE END
+        // ### HOLE BEGIN clamp2
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'y') {
+            count++;
+        }
+        // ### HOLE END
+    }
+    // ### HOLE BEGIN clamp3
+    return String.valueOf(count);
+    // ### HOLE END
+}

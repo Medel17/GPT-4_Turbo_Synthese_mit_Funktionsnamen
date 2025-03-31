@@ -1,0 +1,4 @@
+Input: a = 1, b = 2, c = 3  - Expected Output: 2
+Input: a = 1, b = 5, c = 4  - Expected Output: 4
+Input: a = -10, b = -5, c = -6 - Expected Output: -6
+Input: a = 100, b = 150, c = 200 - Expected Output: 150

@@ -1,0 +1,13 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i); // hole1
+        int csum = check + c; // hole2
+        check = csum % 256; // hole3
+    }
+    char finalChar = (char) check; // hole4
+    if ((finalChar < 33 || finalChar > 126)) { // hole5
+        finalChar = (char)((check % 94) + 33);
+    }
+    return "Check sum is " + finalChar; // hole6
+}

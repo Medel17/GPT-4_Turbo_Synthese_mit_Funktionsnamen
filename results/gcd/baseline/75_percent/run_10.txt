@@ -1,0 +1,18 @@
+public static int gcd(int a, int b) {
+	// Ensure both numbers are positive
+    a = Math.abs(a);
+    b = Math.abs(b);
+
+    // Edge case for zero to avoid infinite loop
+    if (a == 0) return b;
+    if (b == 0) return a;
+
+    // Euclidean algorithm for GCD
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+
+    return a;
+}

@@ -1,0 +1,11 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        int charValue = input.charAt(i);
+        check += charValue;
+        int rolloverClamp = check % 128;
+        check = rolloverClamp;
+    }
+    char result = (char) check;
+    return "Check sum is " + result;
+}

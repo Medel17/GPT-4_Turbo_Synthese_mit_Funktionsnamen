@@ -1,0 +1,15 @@
+public static int VectorAverage_Int(int[] arr) {
+    if (arr == null || arr.length == 0) {
+        // If array is null or has no elements, return 0 as no average is possible
+        return 0;
+    }
+
+    int sum = 0;
+    for (int element : arr) {
+        // Sum up all elements in the array
+        sum += element;
+    }
+    
+    // Calculate the average and convert it to the nearest integer using Math.round
+    return (int) Math.round(sum / (double) arr.length);
+}

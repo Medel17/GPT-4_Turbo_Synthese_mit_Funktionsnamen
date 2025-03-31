@@ -1,0 +1,14 @@
+public static String MiddleCharacter(String string) {
+    if (string == null || string.isEmpty()) {
+        return "";
+    }
+
+    int len = string.length();
+    int middle = len / 2;
+
+    if (len % 2 == 0) {
+        return string.substring(middle - 1, middle + 1);
+    } else {
+        return string.substring(middle, middle + 1);
+    }
+}

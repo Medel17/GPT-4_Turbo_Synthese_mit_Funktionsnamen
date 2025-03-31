@@ -1,0 +1,11 @@
+public static int basement(int[] arr) {
+	int sum = 0;
+	for (int i = 0; i < arr.length; i++) {
+		sum += arr[i];  // Solution for hole1_tests: add arr[i] to sum
+
+		if (sum < 0) {
+			return i;  // Solution for hole2_tests: return i when sum is negative
+		}
+	}
+	return -1;
+}

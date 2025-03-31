@@ -1,0 +1,17 @@
+public static int pow(int x, int n) {
+    if (n < 0) return 0; // Hole 1, Preconditions
+    if (x == 0 && n == 0) return 0; // Handling 0^0
+    int k = n;
+    int p = x;
+    int y = 1;
+    while (k > 0) {
+        if (k % 2 == 0) {
+            p = p * p; // Hole 2, calculating pSquared
+            k = k / 2; // Hole 3, calculating kHalf
+        } else {
+            y = y * p; // Hole 4, calculating yTimes
+            k = k - 1; // Hole 5, calculating kDec
+        }
+    }
+    return y;
+}

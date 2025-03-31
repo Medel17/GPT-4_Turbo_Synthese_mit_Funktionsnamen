@@ -1,0 +1,10 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    // Calculate the sum of a1 and a2
+    int sumA = a1 + a2;
+
+    // Calculate the sum of b1 and b2
+    int sumB = b1 + b2;
+
+    // Return the absolute difference between sumA and sumB
+    return Math.abs(sumA - sumB);
+}

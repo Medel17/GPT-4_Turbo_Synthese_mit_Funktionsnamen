@@ -1,0 +1,2 @@
+Input: str1 = "apple", str2 = "cat"     - Expected Output: false
+Input: str1 = "hello", str2 = "hello"    - Expected Output: false

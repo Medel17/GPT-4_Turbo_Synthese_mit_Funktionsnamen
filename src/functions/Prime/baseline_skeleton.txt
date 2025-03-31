@@ -1,0 +1,11 @@
+public static boolean Prime(int n) {
+		// ### Missing section
+
+        
+		int f = 5;
+		while (f <= r) {
+
+        // ### End of Missing section
+		}
+		return true;
+}

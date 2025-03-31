@@ -1,0 +1,24 @@
+public static int gcd(int a, int b) {
+	// ### HOLE BEGIN clamp1
+	a = Math.abs(a);
+	// ### HOLE END
+	// ### HOLE BEGIN clamp2
+	b = Math.abs(b);
+	// ### HOLE END
+	// ### HOLE BEGIN clamp3
+	if (a == 0) return b;
+	// ### HOLE END
+	// ### HOLE BEGIN clamp4
+	while (b != 0) {
+		// ### HOLE BEGIN clamp5
+		int temp = a % b;
+		// ### HOLE END
+		
+		// ### HOLE BEGIN clamp6
+		a = b;
+		b = temp;
+		// ### HOLE END
+
+	// ### HOLE END
+	return a;
+}

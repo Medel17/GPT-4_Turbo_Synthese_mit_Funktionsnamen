@@ -1,0 +1,4 @@
+public static int gcd(int a, int b) {
+    if (b == 0) return Math.abs(a);
+    return gcd(Math.abs(b), Math.abs(a % b));
+}

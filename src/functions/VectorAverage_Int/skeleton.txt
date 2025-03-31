@@ -1,0 +1,14 @@
+public static int VectorAverage_Int(int[] arr) {
+		// ### HOLE BEGIN clamp1
+
+		// ### HOLE END
+		int sum = 0;
+		for (int element : arr) {
+			// ### HOLE BEGIN clamp2
+
+			// ### HOLE END
+		}
+		// ### HOLE BEGIN clamp3
+
+		// ### HOLE END
+	}

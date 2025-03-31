@@ -1,0 +1,9 @@
+public static String checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        // ### Missing section
+        check ^= input.charAt(i) + i;
+        // ### End of Missing section
+    }
+    return "Check sum is " + (char)(check % 95 + 32);
+}

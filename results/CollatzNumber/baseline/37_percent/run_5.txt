@@ -1,0 +1,16 @@
+public static int CollatzNumber(int n) {
+    int result = 0;
+    // The function should return 0 if the input is not positive
+    if (n <= 0) {
+        return 0;
+    }
+    while (n > 1) {
+        if (n % 2 == 0) {
+            n = n / 2;
+        } else {
+            n = 3 * n + 1;
+        }
+        result++;
+    }
+    return result;
+}

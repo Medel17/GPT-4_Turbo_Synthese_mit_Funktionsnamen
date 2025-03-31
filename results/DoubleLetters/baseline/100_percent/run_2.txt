@@ -1,0 +1,28 @@
+public static String DoubleLetters(String input) {
+    String output = "";
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        int count = 2; // Instead of 1, set count to 2 to repeat each character
+
+        if (Character.isLetter(c)) {
+            // Capital letters double too, but maintain case
+            if (Character.isUpperCase(c)) {
+                c = Character.toUpperCase(c);
+            } else {
+                c = Character.toLowerCase(c);
+            }
+            count = 2; // Every letter character occurs twice
+        }
+
+        if (Character.isDigit(c) || !Character.isAlphanumeric(c)) {
+            // Digits and non-alphanumeric characters (like punctuation) are also doubled
+            count = 2;
+        }
+
+        while (count > 0) {
+            output += c;
+            count--;
+        }
+    }
+    return output;
+}

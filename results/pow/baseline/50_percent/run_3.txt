@@ -1,0 +1,11 @@
+public static int pow(int x, int n) {
+    if (n < 0) {
+        return 0; // Negative power assign 0 based on unit tests
+    }
+
+    int y = 1;
+    for (int i = 1; i <= n; i++) {
+        y *= x;
+    }
+    return y;
+}

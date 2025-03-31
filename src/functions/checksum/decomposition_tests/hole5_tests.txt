@@ -1,0 +1,3 @@
+Input: '!' - Expected Output: 'A'
+Input: '0' - Expected Output: 'P'
+Input: '?' - Expected Output: '_'

@@ -1,0 +1,3 @@
+Input: x = -20     - Expected Output: "Buzz"
+Input: x = 5    - Expected Output: "Buzz"
+Input: x = 150    - Expected Output: "FizzBuzz"

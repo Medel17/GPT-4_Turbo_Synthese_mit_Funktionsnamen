@@ -1,0 +1,2 @@
+Input: n = 2 - Expected Output: true
+Input: n = 3 - Expected Output: true

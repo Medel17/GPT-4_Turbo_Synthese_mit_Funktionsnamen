@@ -1,0 +1,2 @@
+Input: '!' - Expected Output: "Check sum is !"
+Input: 'P' - Expected Output: "Check sum is P"

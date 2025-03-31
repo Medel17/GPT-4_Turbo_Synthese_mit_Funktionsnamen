@@ -1,0 +1,10 @@
+public static int VectorAverage_Int(int[] arr) {
+    if (arr == null || arr.length == 0) throw new IllegalArgumentException("Array is null or empty");
+
+    int sum = 0;
+    for (int element : arr) {
+        sum += element;
+    }
+
+    return Math.round((float)sum / arr.length);
+}

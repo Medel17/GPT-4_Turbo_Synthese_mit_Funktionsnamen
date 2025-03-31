@@ -1,0 +1,2 @@
+Input: k = 3 - Expected Output: k = 2
+Input: k = 0 - Expected Output: k = -1

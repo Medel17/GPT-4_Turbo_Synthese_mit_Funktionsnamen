@@ -1,0 +1,8 @@
+public static boolean CompareStringLengths(String str1, String str2, String str3) {
+    // ### Missing section
+    if (str1.length() == str2.length() && str2.length() == str3.length()) {
+        return true;
+    }
+    // ### End of Missing section
+    return false;
+}

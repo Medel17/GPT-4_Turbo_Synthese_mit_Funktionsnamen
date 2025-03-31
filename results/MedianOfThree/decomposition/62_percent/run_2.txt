@@ -1,0 +1,15 @@
+public static int MedianOfThree(int a, int b, int c) {
+    if (a < b) {
+        // ### HOLE BEGIN clamp1
+        if (c > b) return b;
+        else if (c < a) return a;
+        else return c;
+        // ### HOLE END
+    } else {
+        // ### HOLE BEGIN clamp2
+        if (c > a) return a;
+        else if (c < b) return b;
+        else return c;
+        // ### HOLE END
+    }
+}

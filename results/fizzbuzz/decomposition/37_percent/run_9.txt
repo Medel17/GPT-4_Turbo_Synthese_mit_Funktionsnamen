@@ -1,0 +1,13 @@
+public static String fizzbuzz(int x) {
+    String result = "";
+    // ### HOLE BEGIN fizz
+    if (x % 3 == 0) result += "Fizz";
+    // ### HOLE END
+    // ### HOLE BEGIN buzz
+    if (x % 5 == 0) result += "Buzz";
+    // ### HOLE END
+    // ### HOLE BEGIN number
+    if (result.isEmpty()) result = String.valueOf(x);
+    // ### HOLE END
+    return result;
+}

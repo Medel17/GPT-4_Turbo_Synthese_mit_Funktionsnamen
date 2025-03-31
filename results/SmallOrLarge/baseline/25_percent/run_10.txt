@@ -1,0 +1,11 @@
+public static String SmallOrLarge(int n) {
+		// ### Missing section
+		if (n < 1000) {
+            return "small";
+        } else if (n >= 1000 && n <= 5000) {
+            return "large";
+        } else {
+            return "";
+        }
+        // ### End of Missing section
+	}

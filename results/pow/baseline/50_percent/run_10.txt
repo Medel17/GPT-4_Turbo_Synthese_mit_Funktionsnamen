@@ -1,0 +1,17 @@
+public static int pow(int x, int n) {
+    // Check for precondition where n should not be negative; if so, return 0
+    if (n < 0) {
+        return 0;
+    }
+    // Addressing the case where x is zero
+    if (x == 0) {
+        return 0;
+    }
+
+    int y = 1;
+    for (int i = 1; i <= n; i++) {
+        y *= x;
+    }
+
+    return y;
+}

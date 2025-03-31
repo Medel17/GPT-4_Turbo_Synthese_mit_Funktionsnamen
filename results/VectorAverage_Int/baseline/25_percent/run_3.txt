@@ -1,0 +1,8 @@
+public static int VectorAverage_Int(int[] arr) {
+		int sum = 0;
+		for (int element : arr) {
+			sum += element;
+		}
+		int average = sum / arr.length;
+		return average;
+	}

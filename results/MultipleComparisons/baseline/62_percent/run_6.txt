@@ -1,0 +1,5 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    int maxDiff1 = Math.abs(a1 - a2);
+    int maxDiff2 = Math.abs(b1 - b2);
+    return maxDiff1 > maxDiff2 ? maxDiff1 : maxDiff2;
+}

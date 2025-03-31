@@ -1,0 +1,3 @@
+Input: digit = 0 - Expected Output: square = 0
+Input: digit = 3 - Expected Output: square = 9
+Input: digit = 8 - Expected Output: square = 64

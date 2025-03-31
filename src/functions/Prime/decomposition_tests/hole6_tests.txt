@@ -1,0 +1,5 @@
+Input: n = 9 - Expected Output: r = 3
+Input: n = 10 - Expected Output: r = 3
+Input: n = 25 - Expected Output: r = 5
+Input: n = 26 - Expected Output: r = 5
+Input: n = 100 - Expected Output: r = 10

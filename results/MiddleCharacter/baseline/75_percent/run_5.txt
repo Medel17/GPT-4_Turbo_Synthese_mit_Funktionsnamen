@@ -1,0 +1,15 @@
+public static String MiddleCharacter(String string) {
+    if (string == null || string.isEmpty()) {
+        return "";
+    }
+    int len = string.length();
+    int mid = len / 2;
+    // If length is odd, return the middle character
+    if (len % 2 == 1) {
+        return String.valueOf(string.charAt(mid));
+    }
+    // If length is even, return the two middle characters
+    else {
+        return string.substring(mid - 1, mid + 1);
+    }
+}

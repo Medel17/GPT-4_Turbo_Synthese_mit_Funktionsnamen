@@ -1,0 +1,10 @@
+public static int pow(int x, int n) {
+    if (n < 0) {
+        return 0; // This line deals with cases where the exponent is negative.
+    }
+    int y = 1;
+    for (int i = 1; i <= n; i++) {
+        y *= x;
+    }
+    return y;
+}

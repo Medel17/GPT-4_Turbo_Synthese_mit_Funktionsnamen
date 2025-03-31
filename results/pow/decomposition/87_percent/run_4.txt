@@ -1,0 +1,16 @@
+public static int pow(int x, int n) {
+    if (n < 0) return 0;  // hole1
+    int k = n;
+    int p = x;
+    int y = 1;
+    while (k > 0) {
+        if (k % 2 == 0) {
+            p = p * p;  // hole2
+            k = k / 2;  // hole3
+        } else {
+            y = y * p;  // hole4
+            k = k - 1;  // hole5
+        }
+    }
+    return y;
+}

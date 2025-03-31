@@ -1,0 +1,13 @@
+public static int ClampToHundred(int n) {
+    int result;
+    // ### HOLE BEGIN clamp1
+    result = Math.max(n, -100);
+	// ### HOLE END
+	// ### HOLE BEGIN clamp2
+    result = Math.min(result, 100);
+	// ### HOLE END
+	// ### HOLE BEGIN clamp3
+    // No changes needed from the previous calculations
+	// ### HOLE END
+	return result;
+	}

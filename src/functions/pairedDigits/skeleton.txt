@@ -1,0 +1,9 @@
+public static int pairedDigits(String input) {
+		int sum = 0;
+		for (int i = 0; i < input.length() - 1; i++) {
+			// ### HOLE BEGIN loopBody
+
+			// ### HOLE END
+		}
+		return sum;
+	}

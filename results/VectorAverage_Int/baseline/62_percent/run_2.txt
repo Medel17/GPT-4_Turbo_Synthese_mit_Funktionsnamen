@@ -1,0 +1,10 @@
+public static int VectorAverage_Int(int[] arr) {
+    if (arr == null || arr.length == 0) return 0; // handle null or empty array
+
+    int sum = 0;
+    for (int element : arr) {
+        sum += element; // sum all elements in the array
+    }
+    
+    return sum / arr.length; // return the integer average by dividing sum by number of elements
+}

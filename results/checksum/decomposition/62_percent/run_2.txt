@@ -1,0 +1,21 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        check += c;
+    }
+    while (check >= 127) {
+        check = (check % 64) + 1;
+    }
+    char result = (char) check;
+    if (result < ' ' || result > '~') {
+        if (result == '!') {
+            result = 'A';
+        } else if (result == '?') {
+            result = '_';
+        } else {
+            result = '?';
+        }
+    }
+    return "Check sum is " + result;
+}

@@ -1,0 +1,5 @@
+Input: arr2 length = 1, i = 0 - Expected Output: oppositeIndex = 0
+Input: arr2 length = 2, i = 1 - Expected Output: oppositeIndex = 0
+Input: arr2 length = 3, i = 1 - Expected Output: oppositeIndex = 1
+Input: arr2 length = 4, i = 0 - Expected Output: oppositeIndex = 3
+Input: arr2 length = 6, i = 3 - Expected Output: oppositeIndex = 2

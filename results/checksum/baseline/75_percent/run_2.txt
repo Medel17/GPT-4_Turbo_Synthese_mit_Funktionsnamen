@@ -1,0 +1,9 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        char ch = input.charAt(i);
+        check = (check + ch) % 256;  // Sum characters and use modulo to ensure it's a byte value
+    }
+    char resultChar = (char) check;  // Cast the resulting checksum back to a character
+    return "Check sum is " + resultChar;
+}

@@ -1,0 +1,17 @@
+public static String MiddleCharacter(String string) {
+	// ### HOLE BEGIN clamp1
+	if (string.isEmpty()) {
+	    return "";
+	}
+	// ### HOLE END
+	// ### HOLE BEGIN clamp2
+	if (string.length() % 2 == 0) {
+	    int half = string.length() / 2;
+	    return string.substring(half - 1, half + 1);
+	}
+	// ### HOLE END
+	// ### HOLE BEGIN clamp3
+	int middle = string.length() / 2;
+	return Character.toString(string.charAt(middle));
+	// ### HOLE END
+}

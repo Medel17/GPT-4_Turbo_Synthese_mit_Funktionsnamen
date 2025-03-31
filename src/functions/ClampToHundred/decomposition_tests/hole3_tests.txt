@@ -1,0 +1,3 @@
+Input: n = 50 - Expected Output: 50
+Input: n = 0 - Expected Output: 0
+Input: n = -50 - Expected Output: -50

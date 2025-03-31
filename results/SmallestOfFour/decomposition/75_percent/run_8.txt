@@ -1,0 +1,7 @@
+public static int SmallestOfFour(int a, int b, int c, int d) {
+    if (a < b) {
+        return (c < d) ? ((a < c) ? a : c) : ((a < d) ? a : d);
+    } else {
+        return (c < d) ? ((b < c) ? b : c) : ((b < d) ? b : d);
+    }
+}

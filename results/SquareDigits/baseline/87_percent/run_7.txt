@@ -1,0 +1,13 @@
+public static String SquareDigits(int x) {
+    String result = "";
+    if (x < 0) {
+        return result;
+    }
+    while (x > 0) {
+        int digit = x % 10;
+        int squaredDigit = digit * digit;
+        result = squaredDigit + result;
+        x = x / 10;
+    }
+    return result;
+}

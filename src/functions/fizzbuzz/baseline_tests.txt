@@ -1,0 +1,8 @@
+Input: 1110  - Expected Output: "FizzBuzz"
+Input: 944  - Expected Output: "944"
+Input: -2475  - Expected Output: "FizzBuzz"
+Input: -1542  - Expected Output: "Fizz"
+Input: 1142  - Expected Output: "1142"
+Input: 1415  - Expected Output: "Buzz"
+Input: 1225  - Expected Output: "Buzz"
+Input: -1542  - Expected Output: "Fizz"

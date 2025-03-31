@@ -1,0 +1,9 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check += i * input.charAt(i);
+        check %= 256; // Constrain to 256 (size of extended ASCII)
+    }
+    char resultChar = (char) check;
+    return "Check sum is " + resultChar;
+}

@@ -1,0 +1,11 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check ^= input.charAt(i); // XOR each character with check
+        check += 1; // Increment check by 1
+    }
+
+    // Calculate the final character using modulo with 126 (ASCII printable range)
+    char result = (char) ((check % 95) + 32); // Mapping check to the range of printable ASCII characters
+    return "Check sum is " + result;
+}

@@ -1,0 +1,9 @@
+public static int SumOfSquares(int n) {
+	int sum = 0;
+	for (int i = 1; i < n; i++) {
+		// ### HOLE BEGIN clamp1
+
+		// ### HOLE END
+	}
+	return sum;
+}

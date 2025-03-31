@@ -1,0 +1,19 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        int c_as_integer = (int) c;
+
+        int csum = check;
+        csum += c_as_integer;
+
+        check = csum % 256;
+    }
+
+    int final_check = check % 10;
+    char final_char_check = (char) ('0' + final_check);
+
+    String transformed_final_char = Character.toString((char) (final_char_check + 17));
+
+    return "Check sum is " + transformed_final_char;
+}

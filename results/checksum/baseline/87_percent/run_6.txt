@@ -1,0 +1,7 @@
+public static String checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check ^= input.charAt(i);  // Bitwise XOR each character's ASCII value into `check`
+    }
+    return "Check sum is " + (check == 0 ? "" : (char)check);  // Return formatted result with cast character or empty
+}

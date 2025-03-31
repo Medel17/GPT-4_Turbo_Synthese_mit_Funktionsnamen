@@ -1,0 +1,6 @@
+public static boolean CompareStringLengths(String str1, String str2, String str3) {
+	// ### Missing section
+
+    // ### End of Missing section
+	return true;
+}

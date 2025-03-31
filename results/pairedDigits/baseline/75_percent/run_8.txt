@@ -1,0 +1,10 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    if (input.length() < 2) return sum;
+    for (int i = 1; i < input.length(); i++) {
+        if (input.charAt(i) == input.charAt(i - 1)) {
+            sum += Character.getNumericValue(input.charAt(i));
+        }
+    }
+    return sum;
+}

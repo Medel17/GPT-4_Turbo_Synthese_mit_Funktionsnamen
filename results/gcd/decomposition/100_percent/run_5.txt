@@ -1,0 +1,17 @@
+public static int gcd(int a, int b) {
+    if (a < 0) a = -a; // hole1_tests
+
+    if (b < 0) b = -b; // hole2_tests
+
+    if (a == 0) return b; // hole3_tests
+
+    while (b != 0) {
+        int temp = a % b; // hole5_tests
+
+        a = b; // hole6_tests
+
+        b = temp;
+    }
+
+    return a; // hole4_tests
+}

@@ -1,0 +1,15 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // ### HOLE BEGIN precondition
+    if (input == null || input.length() < 2) return 0;
+    
+    for (int i = 1; i < input.length(); i++) {
+        char current = input.charAt(i);
+        char previous = input.charAt(i - 1);
+        if (current == previous) {
+            sum += Character.getNumericValue(current);
+        }
+    }
+    // ### End of Missing section
+    return sum;
+}

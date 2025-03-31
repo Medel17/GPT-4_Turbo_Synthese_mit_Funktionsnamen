@@ -1,0 +1,19 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    for (int num : a) {
+        boolean allDigitsOdd = true;
+        int absNum = Math.abs(num);
+        while (absNum > 0) {
+            int digit = absNum % 10;
+            if (digit % 2 == 0) {
+                allDigitsOdd = false;
+                break;
+            }
+            absNum /= 10;
+        }
+        if (allDigitsOdd) {
+            count++;
+        }
+    }
+    return count;
+}

@@ -1,0 +1,12 @@
+public static int pow(int x, int n) {
+    if (n < 0) return 0; // If exponent is negative, return 0 as per the given test cases
+    int y = 1; // Initialize result
+    while (n > 0) {
+        if (n % 2 == 1) { // If n is odd, multiply the base with result
+            y = y * x;
+        }
+        x = x * x; // Square the base
+        n = n / 2; // Divide n by 2
+    }
+    return y;
+}

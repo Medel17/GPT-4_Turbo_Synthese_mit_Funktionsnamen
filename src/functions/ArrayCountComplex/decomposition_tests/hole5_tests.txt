@@ -1,0 +1,2 @@
+Input: count1 = 5, count2 = 3 - Expected Output: 2
+Input: count1 = 2, count2 = 0 - Expected Output: 2

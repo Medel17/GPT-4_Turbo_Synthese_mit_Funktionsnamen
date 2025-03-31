@@ -1,0 +1,17 @@
+public static int ArrayCountComplex(int[] a) {
+    int count1 = 0;
+    for (int element : a) {
+        if (element < 0) {
+            count1++;
+        }
+    }
+    int count2 = 0;
+    for (int element : a) {
+        if (element % 5 == 0) {
+            count2++;
+        }
+    }
+    int result1 = count1 - count2;
+    int result2 = count2 - count1;
+    return Math.abs(result1 > result2 ? result1 : result2);
+}

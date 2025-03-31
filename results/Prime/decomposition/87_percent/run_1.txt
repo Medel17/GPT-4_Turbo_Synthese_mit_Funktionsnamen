@@ -1,0 +1,34 @@
+public static boolean Prime(int n) {
+    // ### HOLE BEGIN clamp1
+    if (n <= 1) return false;
+    // ### HOLE END
+    // ### HOLE BEGIN clamp2
+    if (n == 2 || n == 3) return true;
+    // ### HOLE END
+    // ### HOLE BEGIN clamp3
+    if (n % 2 == 0 || n % 3 == 0) return false;
+    // ### HOLE END
+    // ### HOLE BEGIN clamp4
+    // No specific content needed for simple cases like n = 7, 8, 6, 5
+    // ### HOLE END
+    // ### HOLE BEGIN clamp5
+    if (n % 3 == 0) return false;
+    // ### HOLE END
+    // ### HOLE BEGIN clamp6
+    int r = (int) Math.sqrt(n);
+    // ### HOLE END
+    int f = 5;
+    while (f <= r) {
+        // ### HOLE BEGIN clamp7
+        if (n % f == 0 || n % (f + 2) == 0) return false;
+        // ### HOLE END
+        // ### HOLE BEGIN clamp8
+        // Repeating HOLE7's logic for subsequent tests
+        if (n % f == 0 || n % (f + 2) == 0) return false;
+        // ### HOLE END
+        // ### HOLE BEGIN clamp9
+        f += 6;
+        // ### HOLE END
+    }
+    return true;
+}  

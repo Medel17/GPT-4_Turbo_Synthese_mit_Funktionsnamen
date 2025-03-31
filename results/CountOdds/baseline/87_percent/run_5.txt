@@ -1,0 +1,9 @@
+public static int CountOdds(int[] arr) {
+	int count = 0;
+	for (int element : arr) {
+		if (element % 2 != 0) { // Check if the element is odd
+			count++; // Increment count if the element is odd
+		}
+	}
+	return count;
+}

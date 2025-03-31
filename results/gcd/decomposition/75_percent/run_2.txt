@@ -1,0 +1,15 @@
+public static int gcd(int a, int b) {
+    a = Math.abs(a);
+    b = Math.abs(b);
+    if (a == 0)
+        return b;
+    while (b != 0) {
+        if (b < a) {
+            int temp = b;
+            b = a;
+            a = temp;
+        }
+        b = b % a;
+    }
+    return a;
+}

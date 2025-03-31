@@ -1,0 +1,11 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    int sum = 0;
+    for (int num : a) {
+        sum += num;
+        if (sum == 0 && num != 0) {
+            count++;
+        }
+    }
+    return count;
+}

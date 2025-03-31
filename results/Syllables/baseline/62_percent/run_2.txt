@@ -1,0 +1,20 @@
+public static String Syllables(String input) {
+    int count = 0;
+    boolean inVowelSequence = false;
+    for (int i = 0; i < input.length(); i++) {
+        char ch = input.charAt(i);
+        if (isVowel(ch)) {
+            if (!inVowelSequence) {
+                count++;
+                inVowelSequence = true;
+            }
+        } else {
+            inVowelSequence = false;
+        }
+    }
+    return String.valueOf(count);
+}
+
+private static boolean isVowel(char c) {
+    return "aeiou".indexOf(Character.toLowerCase(c)) != -1;
+}

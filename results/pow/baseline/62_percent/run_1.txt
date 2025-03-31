@@ -1,0 +1,13 @@
+public static int pow(int x, int n) {
+    if (n == 0) return 1; // Edge case, anything to the power of zero is 1
+    if (n < 0) return 0; // Since int cannot represent fractions, any negative exponent is treated as zero
+    int y = 1;
+    while (n > 0) {
+        if (n % 2 == 1) {
+            y *= x;
+        }
+        x *= x;
+        n /= 2;
+    }
+    return y;
+}

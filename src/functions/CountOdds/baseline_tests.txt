@@ -1,0 +1,6 @@
+Input: [612, -882, -396, -2715, -167]  - Expected Output: 2
+Input: [489, 1070]  - Expected Output: 1
+Input: [1194]  - Expected Output: 0
+Input: [-109, 273, 274, 1220, -2787]  - Expected Output: 3
+Input: [-2531, 2034, -701, -2655, -2531, -1274, 1741, 971, 911]  - Expected Output: 7
+Input: [1563, 1504, 1904, 2220, -435, -2120, -1860, 1357]  - Expected Output: 3

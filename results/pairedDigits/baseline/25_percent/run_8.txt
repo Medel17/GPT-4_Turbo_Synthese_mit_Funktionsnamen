@@ -1,0 +1,24 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+
+    // Check if the input length is odd, return 0 if true
+    if (input.length() % 2 != 0) {
+        return 0;
+    }
+
+    for (int i = 0; i < input.length() - 1; i += 2) {
+        char c1 = input.charAt(i);
+        char c2 = input.charAt(i + 1);
+
+        // Convert the two adjacent characters to integers
+        int num1 = Character.getNumericValue(c1);
+        int num2 = Character.getNumericValue(c2);
+
+        // If the two numbers are the same
+        if (num1 == num2) {
+            sum += num1;
+        }
+    }
+
+    return sum;
+}

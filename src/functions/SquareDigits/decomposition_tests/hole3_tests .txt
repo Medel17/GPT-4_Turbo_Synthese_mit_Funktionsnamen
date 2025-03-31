@@ -1,0 +1,3 @@
+Input: square = 25, result = "" - Expected Output: result = "25"
+Input: square = 1, result = "925" - Expected Output: result = "1925"
+Input: square = 100, result = "25" - Expected Output: result = "10025"

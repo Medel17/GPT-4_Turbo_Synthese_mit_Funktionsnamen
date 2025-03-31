@@ -1,0 +1,11 @@
+public static String SquareDigits(int x) {
+    String result = "";
+    if (x < 0) return result;  // Directly return empty string for negative input
+    while (x > 0) {
+        int digit = x % 10; // get the last digit
+        int squared = digit * digit; // square the digit
+        result = squared + result; // prepend the squared result to maintain order
+        x /= 10; // remove the last digit
+    }
+    return result;
+}

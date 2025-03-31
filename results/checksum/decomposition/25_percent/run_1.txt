@@ -1,0 +1,15 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        int cInt = (int) c;
+
+        check += cInt;
+        check %= 256;
+    }
+    
+    check %= 64;
+    char result = (char) (check + 'A');
+
+    return "Check sum is " + result;
+}

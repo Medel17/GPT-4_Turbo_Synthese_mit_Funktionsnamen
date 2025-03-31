@@ -1,0 +1,15 @@
+public static String SmallOrLarge(int n) {
+    // ### HOLE BEGIN clamp1
+    if (n <= 999) {
+        return "small";
+    }
+    // ### HOLE END
+    // ### HOLE BEGIN clamp2
+    if (n >= 2000) {
+        return "large";
+    }
+    // ### HOLE END
+    // ### HOLE BEGIN clamp3
+    return "";
+    // ### HOLE END
+}

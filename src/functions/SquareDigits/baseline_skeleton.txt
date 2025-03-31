@@ -1,0 +1,9 @@
+public static String SquareDigits(int x) {
+	String result = "";
+	while (x > 0) {
+		// ### Missing section
+
+        // ### End of Missing section
+	}
+	return result;
+}

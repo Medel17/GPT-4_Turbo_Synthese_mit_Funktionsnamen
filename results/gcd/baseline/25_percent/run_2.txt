@@ -1,0 +1,13 @@
+public static int gcd(int a, int b) {
+    // Handle negative numbers by taking their absolute value
+    a = Math.abs(a);
+    b = Math.abs(b);
+
+    // Algorithm for finding gcd using Euclidean algorithm
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}

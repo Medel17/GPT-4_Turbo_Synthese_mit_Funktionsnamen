@@ -1,0 +1,17 @@
+public static String DoubleLetters(String input) {
+	String output = "";
+	for (int i = 0; i < input.length(); i++) {
+		char c = input.charAt(i);
+		int count = 1;
+        
+		// ### Missing section
+
+        // ### End of Missing section
+
+		while (count > 0) {
+			output += c;
+			count--;
+		}
+	}
+	return output;
+}

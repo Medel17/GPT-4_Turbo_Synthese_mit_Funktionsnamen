@@ -1,0 +1,10 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        int charValue = input.charAt(i);
+        check += charValue;
+    }
+    check %= 256;
+    char finalChar = (char) ((check + 16) % 96 + 32);
+    return "Check sum is " + finalChar;
+}

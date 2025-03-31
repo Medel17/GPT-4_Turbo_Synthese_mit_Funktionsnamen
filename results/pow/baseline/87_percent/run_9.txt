@@ -1,0 +1,26 @@
+public static int pow(int x, int n) {
+    // Precondition: if n is less than 0, return 0 which seems to be an improvised behavior for negative powers
+    if (n < 0) {
+        return 0;
+    }
+    // Special cases
+    if (n == 0) {
+        return 1; // Any number to the power of 0 is 1
+    }
+    if (x == 0) {
+        if (n > 0) return 0; // 0 to any positive power is 0
+    }
+
+    // Main calculation
+    int y = 1;
+    int base = x;
+    int exponent = n;
+    while (exponent > 0) {
+        if (exponent % 2 == 1) {
+            y *= base;
+        }
+        base *= base;
+        exponent /= 2;
+    }
+    return y;
+}

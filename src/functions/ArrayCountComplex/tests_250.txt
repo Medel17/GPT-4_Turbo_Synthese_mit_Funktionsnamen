@@ -1,0 +1,250 @@
+ArrayCountComplex([-2128, -908, -2423]) == 3
+ArrayCountComplex([]) == 0
+ArrayCountComplex([872, -2235, 1621]) == 1
+ArrayCountComplex([396]) == 1
+ArrayCountComplex([-2206, 186, -773, 234, -1753, -2056]) == 2
+ArrayCountComplex([-2069, -187, 2280, -1085, -14, 2055]) == 2
+ArrayCountComplex([665, -2140, -2107, -1439, -2238, -1863]) == 4
+ArrayCountComplex([1018, -521, -515, 803, 2496, 945, -2490, -121, -2273]) == 1
+ArrayCountComplex([]) == 0
+ArrayCountComplex([-1834, 822, -2310, 1151]) == 0
+ArrayCountComplex([868, 2235, -682, 1266]) == 2
+ArrayCountComplex([42, -218, -1668, -1706, 822, 2140, -173, -825, 2035, 938]) == 0
+ArrayCountComplex([2230, -527]) == 0
+ArrayCountComplex([1410, 447, 1624, -929]) == 2
+ArrayCountComplex([-1223]) == 1
+ArrayCountComplex([1156, 125, 1400, 322, -1750, 1643]) == 4
+ArrayCountComplex([859, 1985, -1414]) == 1
+ArrayCountComplex([-2158, 139]) == 0
+ArrayCountComplex([308, -1175, 1506, 1806, -1794]) == 1
+ArrayCountComplex([-1462]) == 1
+ArrayCountComplex([270, 2120]) == 2
+ArrayCountComplex([734, 859, -700, 2151, -1370, 765, 847, -276]) == 2
+ArrayCountComplex([-1427, -1045, -1982, 2361, 1236, 1602, -1534, 973, -1465]) == 1
+ArrayCountComplex([-2247, 299, 1819, 1295, 2077]) == 3
+ArrayCountComplex([]) == 0
+ArrayCountComplex([-1162, -781, -1780, 357, 987, -1623, 977, 1006]) == 0
+ArrayCountComplex([121, -1807, -2231, 1794, 612, -1245]) == 0
+ArrayCountComplex([-1298, 1332, 2187, -2101]) == 0
+ArrayCountComplex([1672, 1329, -1324, 1937, -1478, -1997]) == 0
+ArrayCountComplex([1800, 77]) == 2
+ArrayCountComplex([-1045, -244]) == 2
+ArrayCountComplex([-2012, -1198, -754, 295, -1791, -1584, 2082, 2155, 305]) == 1
+ArrayCountComplex([2109, -1416, 885, -2041, 38, -2455, 1350, 2129, -378, 2279]) == 2
+ArrayCountComplex([1092, -428, -444, -727, 746]) == 1
+ArrayCountComplex([1291, -1885, 400, -1936, 2477]) == 1
+ArrayCountComplex([]) == 0
+ArrayCountComplex([244, 2449, -502, 2492, -229, -642, 2495, 1140]) == 2
+ArrayCountComplex([2097]) == 1
+ArrayCountComplex([-1466, 217, -106, 1513, 1775, 625]) == 2
+ArrayCountComplex([-2374, 967]) == 0
+ArrayCountComplex([209, -1375, -81, -2451, 69, 2306, 2397, 2495, 1389]) == 3
+ArrayCountComplex([-295, -2055]) == 2
+ArrayCountComplex([-1933]) == 1
+ArrayCountComplex([448, 1206, 2415, 1466, -12]) == 3
+ArrayCountComplex([-2284, 293, -1065, -1794]) == 2
+ArrayCountComplex([701, -451, 874, 2193, -1644]) == 1
+ArrayCountComplex([-668, 551, 1931, 671, -136, 1610, -2088, -1815, -458]) == 1
+ArrayCountComplex([1665, 1921, -2287, 1245, 5, -1047, 2423, 299, -1319]) == 3
+ArrayCountComplex([]) == 0
+ArrayCountComplex([1453, -1548, -2375, -1389, 1995]) == 1
+ArrayCountComplex([1376, -2284, -960]) == 1
+ArrayCountComplex([449, -410, -1880, -2336, -1643, 194, -40, 2182, -1255, 1223]) == 2
+ArrayCountComplex([-1993, -513, 264, -516, 826]) == 1
+ArrayCountComplex([1012, 1180, 1132, 259, -2395, 1365, 142]) == 5
+ArrayCountComplex([-2067, -780, 2446, -2005, 1961, -580]) == 2
+ArrayCountComplex([1205, 2242, 1030, -52]) == 2
+ArrayCountComplex([-640, 2240, -15, -924, -263, -2295, 2227, 2055]) == 2
+ArrayCountComplex([1978, -1631, -1029, -219, 1806, -2308, -2176, -73, 424]) == 3
+ArrayCountComplex([]) == 0
+ArrayCountComplex([-685, -337, 484, 2247, 2053, -848, 384]) == 1
+ArrayCountComplex([1695, -323, 1283, -50, -1399, -2177, -1639, -1465, 679]) == 3
+ArrayCountComplex([-784, -1792, -1365, 1159]) == 2
+ArrayCountComplex([226, 541, 449]) == 3
+ArrayCountComplex([1773, -402, 473, 1158]) == 2
+ArrayCountComplex([-604, -2493]) == 2
+ArrayCountComplex([-1651, 663]) == 0
+ArrayCountComplex([]) == 0
+ArrayCountComplex([2457, -1850, 1731, 707, 771]) == 3
+ArrayCountComplex([-396, 2387, 632, -1980, 169, -1161, -2062, 613, -2150]) == 1
+ArrayCountComplex([-1713, -2429, -1307, 1973, -873, -1039, -2065, -1608]) == 6
+ArrayCountComplex([606, -1507, -1408]) == 1
+ArrayCountComplex([682, -105, 982, -675, -650]) == 1
+ArrayCountComplex([-1153]) == 1
+ArrayCountComplex([515, 1728, 2492, -414]) == 2
+ArrayCountComplex([29, -1195, -1811, 1184, -2236, -1462, -1182, -1597, -1583, 266]) == 4
+ArrayCountComplex([]) == 0
+ArrayCountComplex([-1596, -647, 1624, 2317]) == 0
+ArrayCountComplex([-1145, -300, -152, -1803, -1866, 251]) == 4
+ArrayCountComplex([1930, -1808, -2410, 2172]) == 0
+ArrayCountComplex([-161, -2344, 2091, -516, 985]) == 1
+ArrayCountComplex([-167]) == 1
+ArrayCountComplex([1432, -1921, -1540, 2270, 1741, 1400, -1521, 545]) == 2
+ArrayCountComplex([597, -2134, -321, 67, 1132, 787, -854, 365, 2077, 97]) == 4
+ArrayCountComplex([375, -986, -2087]) == 1
+ArrayCountComplex([-1329, -2197, -2191, 850, 1685]) == 1
+ArrayCountComplex([2291, -41, 4, 2006, 2254, -572, 1108, 1547, -1795, 2336]) == 4
+ArrayCountComplex([2403, -1849, 1432, 1369, 1612, 1223, 1533, -1679]) == 4
+ArrayCountComplex([-1670, 325, -903, 1888, -2231]) == 1
+ArrayCountComplex([-237, 2126, 422, -510, -2016, -1484, -837, -1026, -1154, 1388]) == 4
+ArrayCountComplex([-1418, 1276, -1132, 1430]) == 0
+ArrayCountComplex([2033, 2357, 329, -100]) == 2
+ArrayCountComplex([]) == 0
+ArrayCountComplex([2221, -1252, 1925]) == 1
+ArrayCountComplex([1227, 2061, -1455, 64, 2417, -1990, 2373, 2499, -2004, 262]) == 4
+ArrayCountComplex([-385, 2358, -1705, -998, -1336, -518]) == 4
+ArrayCountComplex([1237, 1419]) == 2
+ArrayCountComplex([157, 2076]) == 2
+ArrayCountComplex([-50, -1511, 15, -1786, 497]) == 1
+ArrayCountComplex([-1791, 1491, 2032, 522, -270, 1744]) == 2
+ArrayCountComplex([1743, 1534, -229, -2338]) == 0
+ArrayCountComplex([1779, 2171, -1307, -960, 1361, -2229, 1751, -1390, -993, -2182]) == 2
+ArrayCountComplex([-1123, 1380, 2161, 1348, 855, -1491, -1219, 1482, 2276]) == 3
+ArrayCountComplex([-2446, -1602, 1802, -395, -510, -1808]) == 4
+ArrayCountComplex([]) == 0
+ArrayCountComplex([-2193, -172]) == 2
+ArrayCountComplex([]) == 0
+ArrayCountComplex([]) == 0
+ArrayCountComplex([1656, -411, -2480, 604, -1690, -2453, -1477, -1268]) == 4
+ArrayCountComplex([-258, -2477, 1269, 2208, -1320, -214, 526, 1780]) == 0
+ArrayCountComplex([-2174, 1366, -1721, 1608, -703, -399, -1483]) == 3
+ArrayCountComplex([-1124, -1640, 2425, -2216, 899, 1077, -350]) == 1
+ArrayCountComplex([-1368, 339, -991, 2099, -2308, 161]) == 0
+ArrayCountComplex([]) == 0
+ArrayCountComplex([]) == 0
+ArrayCountComplex([-2180, 1395, 1933, 1275]) == 2
+ArrayCountComplex([-1851, -1697, -646, 189, 1689, -2368]) == 2
+ArrayCountComplex([1877, 1960, 1816, 2484, 1986, 2318, -2486, -998, 1869, 1550]) == 6
+ArrayCountComplex([189, 1804, -928, 2499, 2014, -920, 758, -511]) == 2
+ArrayCountComplex([-361, -2163]) == 2
+ArrayCountComplex([2412, 2235]) == 2
+ArrayCountComplex([-1374, -1993, 1904, -2410, 761]) == 1
+ArrayCountComplex([-577, -2401, -2149, 1238, 1737, -2069, -2176, -1918]) == 4
+ArrayCountComplex([1466, -2461, -893, -2482, 22, -2084, 1209, 1232]) == 0
+ArrayCountComplex([794, -88, -911, 1978, -87, 1775, 1117, -1733]) == 0
+ArrayCountComplex([1898, -2259, 902, -1322, -552, 1980, -805, -1687, 1036, -1770]) == 2
+ArrayCountComplex([]) == 0
+ArrayCountComplex([-2131, -55, -2251, -2439, -2210, -1509]) == 6
+ArrayCountComplex([1218, 1856, -273, -992, 129, 1968, 219, -614, -766, -1752]) == 0
+ArrayCountComplex([1066, -773, 2011, 2153]) == 2
+ArrayCountComplex([174, -2432, -711, -1446, -401, -1702]) == 4
+ArrayCountComplex([-1547, 537, -1348, 1177, -726, -937, 1321, 2214]) == 0
+ArrayCountComplex([2306, 1084, -709, -1478, -880, -2202, -2064, -771, 2237, 298]) == 2
+ArrayCountComplex([-1348, -871, 554, -809, 1033, 407, 367, 1806, 843]) == 3
+ArrayCountComplex([-351, 332, -1542]) == 1
+ArrayCountComplex([-1281, 1405, -1346, 298, -661, 1597, -603, -2240, 1258, 886]) == 0
+ArrayCountComplex([443, 96, -1630, -14, -2380, 129]) == 0
+ArrayCountComplex([1687, 1066, 341, 1881, -1224, -2454]) == 2
+ArrayCountComplex([-847, -617, -1496, -7]) == 4
+ArrayCountComplex([-1824, 1637, -1706]) == 1
+ArrayCountComplex([1569, 512, -2071, -2023, 2262, -173, 1929, 872]) == 2
+ArrayCountComplex([1241]) == 1
+ArrayCountComplex([-674]) == 1
+ArrayCountComplex([-417, -1079, 1045, -650, -787, 1475, -41, 2063, -1919, 2023]) == 2
+ArrayCountComplex([864, 855, -2436, -910, 1774, 530, 1232, 1687, -802]) == 3
+ArrayCountComplex([-1867, -1050, 1053, -1357, 51, -631, -700, -2289]) == 4
+ArrayCountComplex([1164, 1010, -1931, 82, 1925, -545]) == 2
+ArrayCountComplex([-2045, 1790]) == 0
+ArrayCountComplex([2416, 109, -1735, 2323]) == 2
+ArrayCountComplex([86, 743, -587, -1174, -1780]) == 1
+ArrayCountComplex([]) == 0
+ArrayCountComplex([-673, -2051, -480, 2384, -1271, 1279, 440, 36]) == 0
+ArrayCountComplex([-1828, 2422, -862]) == 1
+ArrayCountComplex([-1003, -1408, 408, -63, 2361, 1182, -67, -547]) == 2
+ArrayCountComplex([]) == 0
+ArrayCountComplex([-693, -232, -926, -1529, -1232, -1160, -646, 936]) == 6
+ArrayCountComplex([-744, 1717, -484, 445, 1518]) == 1
+ArrayCountComplex([1559, -958, -216, 37, 788, -2229, -2195, -1231, -1172]) == 3
+ArrayCountComplex([-1233, -742, -2387, -447, 2243, -797]) == 4
+ArrayCountComplex([47, 1029, -2111, 1753, 885, -1678, -1117, 1291, -2097]) == 1
+ArrayCountComplex([-1674, 1776, 1515, -223, 1719, -1375, 1846]) == 1
+ArrayCountComplex([-357, 1190, -2443, -447, -2037]) == 3
+ArrayCountComplex([-2374, 281, 1353, -927, 1935, -433, -2278, -979]) == 2
+ArrayCountComplex([1781, 313, -768, 2360, -807]) == 1
+ArrayCountComplex([-751, 557, -675]) == 1
+ArrayCountComplex([-1955, -57, 779, -1334, -401, 1383, -2344, -207, 1514]) == 3
+ArrayCountComplex([-1602, 1960, -616, -2369, -1549, 2421, 926]) == 1
+ArrayCountComplex([-661, 2389, 1821, 2290, -1548, -1043]) == 0
+ArrayCountComplex([1521, 277, -1224, -934, 632]) == 1
+ArrayCountComplex([583, -1300, 1545, -926, -2158, 2482, -1840, 1423, 139]) == 1
+ArrayCountComplex([]) == 0
+ArrayCountComplex([-1727, 137, -1918, 267, 1077, -507, -1738, 1750]) == 0
+ArrayCountComplex([-2315, -1770, 564, 1005, -373, 1007]) == 0
+ArrayCountComplex([397, 163, -297, 1949, -1975, -645, -1278, -1541]) == 2
+ArrayCountComplex([-1943, 1492, -937]) == 1
+ArrayCountComplex([276, -2492, -2333, 1909]) == 0
+ArrayCountComplex([2203, 1815, 428, 2264, -1168, -2391, -597]) == 1
+ArrayCountComplex([-100, -836, -53, -659, 472, 438, 2429, -1257, -33, -1145]) == 4
+ArrayCountComplex([266, -2145, 1009, -900, -1791, -1122]) == 2
+ArrayCountComplex([55, 143, 763, -1708, 2007, 216, 1700, 1635]) == 6
+ArrayCountComplex([]) == 0
+ArrayCountComplex([1754]) == 1
+ArrayCountComplex([-51]) == 1
+ArrayCountComplex([2189, -462, 1963, -468, 675]) == 1
+ArrayCountComplex([1193, 1970, 296, -2156, -1650, -695, 830, 678, -1618, -18]) == 0
+ArrayCountComplex([261, 2213]) == 2
+ArrayCountComplex([1920, -423, -87, 1639, -141, -2458, -1518, -1359, 1470]) == 3
+ArrayCountComplex([-1716, 1554, 21, -94, 1465, 1038, -2242, -196]) == 0
+ArrayCountComplex([2135, 364, -582, 1939, 1482]) == 3
+ArrayCountComplex([851, 2040, 2471, -402, 2278, -483, -878]) == 1
+ArrayCountComplex([2389, -1288, 431, 622, 431, -2475, 2201, 2483, 1786]) == 5
+ArrayCountComplex([1187, -2477, -2069, 0, 723, 130, -1648, -1522]) == 1
+ArrayCountComplex([1044, 1979]) == 2
+ArrayCountComplex([2184, 615, 965, 460, 1939]) == 5
+ArrayCountComplex([2294, 1300, 2321, -1245, 81]) == 3
+ArrayCountComplex([-817, 2395, 2091, 903, 257, -753, -951]) == 1
+ArrayCountComplex([-855, -1023, -166, 1915, -1217, 1264, -2296, 1607, -1474]) == 3
+ArrayCountComplex([-2429, -1204]) == 2
+ArrayCountComplex([1496, 1888, -2066, -314, 1844, 1103, 4, -1536]) == 2
+ArrayCountComplex([1605, -147, -360, 42, -780, -926, -998, -1894, 2084, 1116]) == 2
+ArrayCountComplex([489, 245, -507, 1156]) == 2
+ArrayCountComplex([1343, 952, -1058, -1963, 339, 1906, 2432, 1027, -278]) == 3
+ArrayCountComplex([2345, -2051, 1075, -127, 1825, 191, -1113, -2211]) == 0
+ArrayCountComplex([566, -1989, 2069, -1783, 1270]) == 1
+ArrayCountComplex([1165, 1950, -2442, 1216, 1206]) == 3
+ArrayCountComplex([-196]) == 1
+ArrayCountComplex([161, 992, -2127, -1222, 1394, -2381]) == 0
+ArrayCountComplex([1589, -202, -1671, -732, -1798, -738]) == 4
+ArrayCountComplex([-627, 97, -582, 2173, 863, 604, -2281, 1535, 1629]) == 3
+ArrayCountComplex([1811, 2306, 657, -733, 1388, -115, 305, 1315, 977]) == 5
+ArrayCountComplex([1477, -1592, 17, 2113, 2223, 1361, -2254]) == 3
+ArrayCountComplex([-2134, 1944, -1733, -2188, -1724, 2087, 1666, 1964]) == 0
+ArrayCountComplex([-179, -726, 98, 467, -492, -466, 1463, 593, -1892, -1970]) == 2
+ArrayCountComplex([1151, 1592]) == 2
+ArrayCountComplex([-771, 509, -223, 721, -2287]) == 1
+ArrayCountComplex([1284, 748, 199, -1924, 60]) == 3
+ArrayCountComplex([-1970, 1422, 2290, 2270, -1292, -1380, -1849, -1917, -1900, -2119]) == 4
+ArrayCountComplex([-1298, 249, 1134, -181, -717, 554, -1955, -2180, -417, -1880]) == 4
+ArrayCountComplex([350, -974, -323, -48, -1123, 47, -494, 2105]) == 2
+ArrayCountComplex([1171]) == 1
+ArrayCountComplex([-211, 895, 2452, -1328, 2446, -72, -93, 199, 1085, -2429]) == 0
+ArrayCountComplex([-1722, 1322, -2187, -1500, -1877]) == 3
+ArrayCountComplex([-1329, -193, 137, -2022, 555, -1486, 2141, -509, 2016, 476]) == 0
+ArrayCountComplex([170, 318, -726, 110, 641, 522, -2000]) == 3
+ArrayCountComplex([-900, 1646, -323, -710, -2201]) == 3
+ArrayCountComplex([814, 2061, 899, 1393, -1672, 1160, 2188, 864, -1499, 1134]) == 6
+ArrayCountComplex([2179, 1312, 2212, 2415]) == 4
+ArrayCountComplex([743, 1224, -2104, 1094, 456, 1518, 737, 1262]) == 6
+ArrayCountComplex([-2106, 978, 1250, 1500, 1489, -1024, -2350, -747, -405, 427]) == 0
+ArrayCountComplex([1055, -641, 935, 1011]) == 2
+ArrayCountComplex([-413, -1844, -949, 1251, 1616, -1476, -1901]) == 3
+ArrayCountComplex([1191, 1373, 1178, 415]) == 4
+ArrayCountComplex([2006, 78, -2070, 1988, 1339, -638]) == 2
+ArrayCountComplex([365, -1796, 571, 1424, 2310, -149, -1751]) == 1
+ArrayCountComplex([2042, 1518, -2340, -1531, 767, -1552]) == 0
+ArrayCountComplex([2113, -631, 6, 643, 1529, -1977, -1719, 195, -1820]) == 1
+ArrayCountComplex([2225]) == 1
+ArrayCountComplex([868, 445, -745, -83, -844, 2213, 1981]) == 1
+ArrayCountComplex([1240, -1581, -2051, -257, -1267, 1266, -36, 326]) == 2
+ArrayCountComplex([456, 1342]) == 2
+ArrayCountComplex([-774, 62, -853, -328, 209, 1783, -1784, 1007, -1888]) == 1
+ArrayCountComplex([-1844, -1047, 1076, 409]) == 0
+ArrayCountComplex([-751, 175, -2486, -280, -1420, -183, -533, -206]) == 6
+ArrayCountComplex([-1369, -375, -2355, -1195, -93]) == 5
+ArrayCountComplex([-2239, 294, 810, -308, 2342, 546, 703, -23, 1442, 1356]) == 4
+ArrayCountComplex([2027, -208, -58]) == 1
+ArrayCountComplex([2256, -1034, -1171, -1936]) == 2
+ArrayCountComplex([808, -1757, 230, -1381]) == 0
+ArrayCountComplex([-2330, 1966, 1784, -2407]) == 0
+ArrayCountComplex([-425, 414, 2363, 1597, 1907, -1705]) == 2
+ArrayCountComplex([-1206, -578, -2208, -2477, 2105]) == 3

@@ -1,0 +1,20 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // #############################################################################
+    // Precondition validation section:
+    if (input.length() < 2) {
+        return sum; // Return 0 if the input string is too short to have paired digits.
+    }
+
+    // Sum up the directly adjacent equal digits:
+    for (int i = 0; i < input.length() - 1; i++) {
+        // Check if current digit and the next one are the same:
+        if (input.charAt(i) == input.charAt(i + 1)) {
+            int digit = Character.getNumericValue(input.charAt(i));
+            sum += digit + digit; // Add twice the digit because it is paired with itself.
+        }
+    }
+    // Return the computed sum of all paired digits.
+    return sum;
+    // #############################################################################
+}

@@ -1,0 +1,11 @@
+public static int MedianOfThree(int a, int b, int c) {
+    if (a < b) {
+        if (b < c) return b; // b is the median
+        else if (a < c) return c; // c is the median
+        else return a; // a is the median
+    } else {
+        if (a < c) return a; // a is the median
+        else if (b < c) return c; // c is the median
+        else return b; // b is the median
+    }
+}

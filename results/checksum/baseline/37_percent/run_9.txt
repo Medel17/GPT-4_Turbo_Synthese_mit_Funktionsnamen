@@ -1,0 +1,10 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        check ^= (int) c;  // XOR current character's ASCII with check
+    }
+    
+    check = (check % 94) + 33;  // Normalize to printable characters
+    return "Check sum is " + (char) check;
+}

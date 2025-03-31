@@ -1,0 +1,6 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    int greaterA = (a1 > a2) ? a1 : a2; // clamp1: get the greater between a1 and a2
+    int smallerB = (b1 < b2) ? b1 : b2; // clamp2: get the smaller between b1 and b2
+    int difference = Math.abs(greaterA - smallerB); // clamp3: get the absolute difference between greaterA and smallerB
+    return difference;
+}

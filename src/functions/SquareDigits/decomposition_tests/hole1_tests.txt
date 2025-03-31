@@ -1,0 +1,3 @@
+Input: x = 5 - Expected Output: digit = 5
+Input: x = 10 - Expected Output: digit = 0
+Input: x = 507 - Expected Output: digit = 7

@@ -1,0 +1,1 @@
+Input: c = '!' - Expected Output: count = 3

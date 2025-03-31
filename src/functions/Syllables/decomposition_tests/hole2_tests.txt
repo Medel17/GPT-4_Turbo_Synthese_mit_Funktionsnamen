@@ -1,0 +1,8 @@
+Input: c = 'a' , count = 2 - Expected Output: count = 3
+Input: c = 'e' , count = 0 - Expected Output: count = 1
+Input: c = 'i' , count = 1 - Expected Output: count = 2
+Input: c = 'o' , count = 0 - Expected Output: count = 1
+Input: c = 'b' , count = 0 - Expected Output: count = 0
+Input: c = 'u' , count = 0 - Expected Output: count = 1
+Input: c = 'y' , count = 0 - Expected Output: count = 1
+Input: c = 'z' , count = 0 - Expected Output: count = 0

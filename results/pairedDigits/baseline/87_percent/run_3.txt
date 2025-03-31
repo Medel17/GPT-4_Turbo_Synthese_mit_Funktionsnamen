@@ -1,0 +1,22 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // Check the precondition: length must be at least two to have a pair
+    if (input == null || input.length() < 2) {
+        return 0;
+    }
+
+    // Iterate through the string input character by character
+    for (int i = 0; i < input.length() - 1; i++) {
+        // Get current character and the next character
+        char current = input.charAt(i);
+        char next = input.charAt(i + 1);
+
+        // If they are equal and they are digits
+        if (current == next && Character.isDigit(current)) {
+            // Add their numeric value to the sum
+            sum += Character.getNumericValue(current);
+        }
+    }
+
+    return sum;
+}

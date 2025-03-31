@@ -1,0 +1,9 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // ### HOLE BEGIN precondition
+    if (input == null || input.length() < 2) {
+        return sum;
+    }
+    // ### End of Missing section
+    return sum;
+}

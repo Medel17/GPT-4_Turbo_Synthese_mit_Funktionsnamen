@@ -1,0 +1,18 @@
+public static double VectorAverage_Double(double[] arr) {
+    // ### HOLE BEGIN clamp1
+    if (arr == null || arr.length == 0) {
+        return 0.0;
+    }
+    // ### HOLE END
+    double sum = 0;
+    for (double element : arr) {
+        // ### HOLE BEGIN clamp2
+        sum += element;
+        // ### HOLE END
+    }
+    double length = arr.length;
+    // ### HOLE BEGIN clamp3
+    double average = sum / length;
+    return average;
+    // ### HOLE END
+}

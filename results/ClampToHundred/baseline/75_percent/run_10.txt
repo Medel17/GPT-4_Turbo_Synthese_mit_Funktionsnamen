@@ -1,0 +1,13 @@
+public static int ClampToHundred(int n) {
+    int result;
+    // ### Missing section
+    if (n < -100) {
+        result = -100;
+    } else if (n > 100) {
+        result = 100;
+    } else {
+        result = n;
+    }
+    // ### End of Missing section
+    return result;
+}

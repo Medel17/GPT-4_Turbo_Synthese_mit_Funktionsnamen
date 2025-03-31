@@ -1,0 +1,24 @@
+public static int ArrayCountComplex(int[] a) {
+    if (a == null || a.length == 0) {
+        return 0;
+    }
+    int count = 0;
+    for (int num : a) {
+        if (isComplex(num)) {
+            count++;
+        }
+    }
+    return count;
+}
+
+private static boolean isComplex(int number) {
+    int absNumber = Math.abs(number);
+    int sum = 0;
+    
+    while (absNumber > 0) {
+        sum += absNumber % 10;
+        absNumber /= 10;
+    }
+    
+    return sum >= 25;
+}

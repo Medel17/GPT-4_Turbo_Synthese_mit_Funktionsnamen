@@ -1,0 +1,9 @@
+Input: "89750650568"  - Expected Output: 0
+Input: "4"  - Expected Output: 0
+Input: "7672394779"  - Expected Output: 7
+Input: "176"  - Expected Output: 0
+Input: ""  - Expected Output: 0
+Input: "3639528440697"  - Expected Output: 4
+Input: "80571979330967"  - Expected Output: 3
+Input: "17111913867936337888"  - Expected Output: 21
+Input: "3413000297"  - Expected Output: 0

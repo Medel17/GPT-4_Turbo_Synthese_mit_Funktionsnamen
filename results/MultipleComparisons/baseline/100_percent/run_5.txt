@@ -1,0 +1,6 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    // Find maximum of the absolute differences
+    int maxDiff1 = Math.abs(a1 - b1);
+    int maxDiff2 = Math.abs(a2 - b2);
+    return Math.max(maxDiff1, maxDiff2);
+}

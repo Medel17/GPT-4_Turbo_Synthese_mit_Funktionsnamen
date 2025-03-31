@@ -1,0 +1,16 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    for (int num : a) {
+        boolean complex = true;
+        for (int d = 2; d * d <= Math.abs(num); d++) {
+            if (num % d == 0) {
+                complex = false;
+                break;
+            }
+        }
+        if (num != 0 && (num == 1 || num == -1 || complex)) {
+            count++;
+        }
+    }
+    return count;
+}

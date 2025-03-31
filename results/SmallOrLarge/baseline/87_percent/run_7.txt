@@ -1,0 +1,10 @@
+public static String SmallOrLarge(int n) {
+    // ### Missing section
+    if (n >= 2000 && n <= 4000) {
+        return "large";
+    } else if ((n >= -3000 && n < 0) || (n > 0 && n <= 1999)) {
+        return "small";
+    }
+    return "";
+    // ### End of Missing section
+}

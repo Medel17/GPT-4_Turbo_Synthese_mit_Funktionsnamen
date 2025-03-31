@@ -1,0 +1,6 @@
+Input: input = ""   - Expected Output: sum = 0
+Input: input = "1"   - Expected Output: sum = 0
+Input: input = "11"   - Expected Output: sum = 1
+Input: input = "111"   - Expected Output: sum = 2
+Input: input = "121"   - Expected Output: sum = 0
+Input: input = "112233"   - Expected Output: sum = 6

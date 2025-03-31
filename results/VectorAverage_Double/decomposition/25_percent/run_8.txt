@@ -1,0 +1,10 @@
+public static double VectorAverage_Double(double[] arr) {
+    if (arr == null || arr.length == 0) return 0;
+
+	double sum = 0;
+	for (double element : arr) {
+		sum += element;
+	}
+	double length = arr.length;
+	return sum / length;
+}

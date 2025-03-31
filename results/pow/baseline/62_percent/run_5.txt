@@ -1,0 +1,12 @@
+public static int pow(int x, int n) {
+    if (n < 0) return 0; // non-positive exponents return 0 for simplicity (not mathematically accurate for non-zero bases)
+    int y = 1;
+    while (n > 0) {
+        if ((n & 1) == 1) {
+            y *= x;
+        }
+        x *= x;
+        n >>= 1;
+    }
+    return y;
+}

@@ -1,0 +1,10 @@
+public static int CollatzNumber(int n) {
+	int result = 0;
+	while (n > 1) {
+		// ### Missing section
+
+        // ### End of Missing section
+		result++;
+	}
+	return result;
+}

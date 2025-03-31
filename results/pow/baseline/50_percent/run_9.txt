@@ -1,0 +1,12 @@
+public static int pow(int x, int n) {
+    if (n < 0) return 0; // This condition handles all cases where exponent is negative which should return 0 based on the test cases.
+    int y = 1;
+    while (n > 0) {
+        if (n % 2 == 1) {
+            y *= x;
+        }
+        x *= x;
+        n /= 2;
+    }
+    return y;
+}

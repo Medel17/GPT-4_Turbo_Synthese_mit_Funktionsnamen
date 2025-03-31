@@ -1,0 +1,9 @@
+public static int SmallestOfFour(int a, int b, int c, int d) {
+    if (a < b) {
+        int minACD = Math.min(Math.min(a, c), d); // HOLE BEGIN clamp1
+        return minACD;  // HOLE END
+    } else {
+        int minBCD = Math.min(Math.min(b, c), d); // HOLE BEGIN clamp2
+        return minBCD;  // HOLE END
+    }
+}

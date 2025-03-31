@@ -1,0 +1,13 @@
+public static String SquareDigits(int x) {
+    String result = "";
+    if (x < 0) {
+        return result; // If the input is negative, return an empty string as indicated by the unit tests.
+    }
+    while (x > 0) {
+        int digit = x % 10; // Get the last digit
+        int squared = digit * digit; // Square the digit
+        result = squared + result; // Prepend the squared result to the final result String
+        x /= 10; // Remove the last digit
+    }
+    return result;
+}

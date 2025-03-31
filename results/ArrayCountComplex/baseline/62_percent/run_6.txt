@@ -1,0 +1,7 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    for (int num : a) {
+        if (num % 2 != 0) count++;
+    }
+    return count;
+}

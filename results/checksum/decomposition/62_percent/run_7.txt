@@ -1,0 +1,24 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        // ### HOLE BEGIN clamp1
+        int c = input.charAt(i);
+        // ### HOLE END
+        // ### HOLE BEGIN clamp2
+        check += c;
+        // ### HOLE END
+    }
+    // ### HOLE BEGIN clamp3
+    check %= 128;
+    // ### HOLE END
+    // ### HOLE BEGIN clamp4
+    char checksumChar = (char) check;
+    // ### HOLE END
+    // ### HOLE BEGIN clamp5
+    if (checksumChar == 0x1F) checksumChar = 'A';
+    if (checksumChar == 0x3F) checksumChar = '_';
+    // ### HOLE END
+    // ### HOLE BEGIN clamp6
+    return "Check sum is " + checksumChar;
+    // ### HOLE END
+}

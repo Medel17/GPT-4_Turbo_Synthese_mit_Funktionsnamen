@@ -1,0 +1,9 @@
+public static boolean CompareStringLengths(String str1, String str2, String str3) {
+	// ### HOLE BEGIN clamp1
+	boolean compare1 = !str1.equals(str2);
+	// ### HOLE END
+	// ### HOLE BEGIN clamp2
+	boolean compare2 = !str2.equals(str3);
+	// ### HOLE END
+	return compare1 && compare2;
+}

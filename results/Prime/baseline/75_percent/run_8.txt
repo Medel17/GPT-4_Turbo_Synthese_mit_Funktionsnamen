@@ -1,0 +1,21 @@
+public static boolean Prime(int n) {
+    if (n <= 1) {
+        return false; // 1, 0, and negative numbers are not prime
+    }
+    if (n <= 3) {
+        return true; // 2 and 3 are prime numbers
+    }
+    if (n % 2 == 0 || n % 3 == 0) {
+        return false; // exclude multiples of 2 and 3
+    }
+    
+    int f = 5;
+    int r = (int)Math.sqrt(n);
+    while (f <= r) {
+        if (n % f == 0 || n % (f + 2) == 0) {
+            return false;
+        }
+        f += 6; // check only numbers of the form 6k ± 1
+    }
+    return true;
+}

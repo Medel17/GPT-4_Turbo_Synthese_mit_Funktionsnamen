@@ -1,0 +1,13 @@
+public static int ClampToHundred(int n) {
+    int result;
+    // ### HOLE BEGIN clamp1
+ 
+	// ### HOLE END
+	// ### HOLE BEGIN clamp2
+
+	// ### HOLE END
+	// ### HOLE BEGIN clamp3
+
+	// ### HOLE END
+	return result;
+	}

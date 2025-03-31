@@ -1,0 +1,12 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        int c = input.charAt(i);
+        int csum = check + c;
+        check = csum % 256;
+    }
+    int compressedCsum = (check % 127);
+    char finalChar = (char)compressedCsum;
+    char mapToAscii = (char)('A' + (finalChar % 26));
+    return "Check sum is " + mapToAscii;
+}

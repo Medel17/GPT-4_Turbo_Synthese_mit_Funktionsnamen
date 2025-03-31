@@ -1,0 +1,10 @@
+public static String SquareDigits(int x) {
+    if (x < 0) return ""; // handle negative inputs as per unit tests
+    String result = "";
+    while (x > 0) {
+        int digit = x % 10;
+        result = (digit * digit) + result;
+        x /= 10;
+    }
+    return result;
+}

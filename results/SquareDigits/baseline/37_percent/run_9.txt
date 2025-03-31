@@ -1,0 +1,12 @@
+public static String SquareDigits(int x) {
+    String result = "";
+    if (x < 0) {
+        return result;
+    }
+    String input = String.valueOf(x);
+    for (char digit : input.toCharArray()) {
+        int d = Character.getNumericValue(digit);
+        result += Integer.toString(d * d);
+    }
+    return result;
+}

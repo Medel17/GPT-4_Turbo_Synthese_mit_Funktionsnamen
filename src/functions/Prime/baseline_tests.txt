@@ -1,0 +1,12 @@
+Input: 3  - Expected Output: true
+Input: 1014  - Expected Output: false
+Input: 26  - Expected Output: false
+Input: -2567  - Expected Output: false
+Input: 806  - Expected Output: false
+Input: 1  - Expected Output: false
+Input: 859  - Expected Output: true
+Input: 0  - Expected Output: false
+Input: 2909  - Expected Output: true
+Input: 2271  - Expected Output: false
+Input: -1085  - Expected Output: false
+Input: 2  - Expected Output: true

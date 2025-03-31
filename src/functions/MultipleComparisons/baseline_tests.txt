@@ -1,0 +1,7 @@
+Input: a1 = -2359, a2 = 1756, b1 = -2579, b2 = -113  - Expected Output: 4335
+Input: a1 = 2853, a2 = 659, b1 = 2997, b2 = 2593  - Expected Output: 260
+Input: a1 = 3481, a2 = -2404, b1 = 666, b2 = 3523  - Expected Output: 2815
+Input: a1 = 2860, a2 = -1142, b1 = -489, b2 = -97  - Expected Output: 3349
+Input: a1 = 3967, a2 = -1982, b1 = 450, b2 = -3374  - Expected Output: 7341
+Input: a1 = 1176, a2 = -3493, b1 = 1719, b2 = -3972  - Expected Output: 5148
+Input: a1 = -2826, a2 = -2425, b1 = -3286, b2 = 400  - Expected Output: 861

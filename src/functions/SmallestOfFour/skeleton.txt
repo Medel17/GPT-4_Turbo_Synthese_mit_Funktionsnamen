@@ -1,0 +1,11 @@
+public static int SmallestOfFour(int a, int b, int c, int d) {
+	if (a < b) {
+		// ### HOLE BEGIN clamp1
+
+		// ### HOLE END
+	} else {
+		// ### HOLE BEGIN clamp2
+
+		// ### HOLE END
+	}
+}

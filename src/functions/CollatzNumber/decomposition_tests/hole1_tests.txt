@@ -1,0 +1,4 @@
+Input: n = 3   - Expected Output: n = 10
+Input: n = 8   - Expected Output: n = 4
+Input: n = 2   - Expected Output: n = 1
+Input: n = 11   - Expected Output: n = 34

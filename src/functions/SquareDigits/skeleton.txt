@@ -1,0 +1,18 @@
+public static String SquareDigits(int x) {
+	String result = "";
+	while (x > 0) {
+		// ### HOLE BEGIN clamp1
+
+		// ### HOLE END
+		// ### HOLE BEGIN clamp2
+
+		// ### HOLE END
+		// ### HOLE BEGIN clamp3
+
+		// ### HOLE END
+		// ### HOLE BEGIN clamp4
+
+		// ### HOLE END
+	}
+	return result;
+}

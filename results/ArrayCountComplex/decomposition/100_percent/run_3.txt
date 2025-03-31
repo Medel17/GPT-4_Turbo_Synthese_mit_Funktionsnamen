@@ -1,0 +1,28 @@
+public static int ArrayCountComplex(int[] a) {
+	// ### HOLE BEGIN clamp1
+	int count1 = 0;
+	for (int element : a) {
+		if (element < 0) {
+			count1++;
+		}
+	}
+	// ### HOLE END
+	// ### HOLE BEGIN clamp3
+	int count2 = 0;
+	for (int element : a) {
+		if (element > 0) {
+			count2++;
+		}
+	}
+	// ### HOLE END
+	// ### HOLE BEGIN clamp5
+	int result = count1 - count2;
+	// ### HOLE END
+	// ### HOLE BEGIN clamp6
+	if (Math.abs(result) > 2) {
+		return 2;
+	} else {
+		return Math.abs(result);
+	}
+	// ### HOLE END
+}

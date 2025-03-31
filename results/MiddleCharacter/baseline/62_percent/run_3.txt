@@ -1,0 +1,13 @@
+public static String MiddleCharacter(String string) {
+    int length = string.length();
+    int middle = length / 2;
+
+    // Check even or odd length
+    if (length % 2 == 0) {
+        // even length string, return two middle characters
+        return string.substring(middle - 1, middle + 1);
+    } else {
+        // odd length string, return the exact middle character
+        return string.substring(middle, middle + 1);
+    }
+}

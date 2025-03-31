@@ -1,0 +1,13 @@
+public static int pow(int x, int n) {
+    // ### HOLE BEGIN precondition
+    if (n < 0) {
+        return 0; 
+    }
+    
+    int y = 1;
+    for (int i = 0; i < n; i++) {
+        y *= x;
+    }
+    // ### End of Missing section
+    return y;
+}

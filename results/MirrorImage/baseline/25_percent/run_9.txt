@@ -1,0 +1,11 @@
+public static boolean MirrorImage(int[] arr1, int[] arr2) {
+	if (arr1.length != arr2.length) return false; // If arrays have different lengths, they cannot be mirror images
+
+	for (int i = 0; i < arr1.length; i++) {
+		if (arr1[i] != arr2[arr2.length - 1 - i]) {
+			return false; // Check if elements from the start of the first array match the elements from the end of the second array
+		}
+	}
+
+	return true; // If all checks pass, the arrays are mirror images
+}

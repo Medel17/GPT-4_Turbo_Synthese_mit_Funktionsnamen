@@ -1,0 +1,5 @@
+Input: y = 1996 - Expected Output: true
+Input: y = 1900 - Expected Output: false
+Input: y = 2004 - Expected Output: true
+Input: y = 2100 - Expected Output: false
+Input: y = -100 - Expected Output: false

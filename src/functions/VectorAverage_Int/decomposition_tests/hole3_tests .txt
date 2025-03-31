@@ -1,0 +1,4 @@
+Input: sum = 0, arr.length = 5 - Expected Output: 0
+Input: sum = 10, arr.length = 2 - Expected Output: 5
+Input: sum = -10, arr.length = 3 - Expected Output: -3
+Input: sum = 5, arr.length = 6 - Expected Output: 0

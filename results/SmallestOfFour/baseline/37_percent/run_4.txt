@@ -1,0 +1,23 @@
+public static int SmallestOfFour(int a, int b, int c, int d) {
+    if (a < b) { // this means `a` is less than `b`
+        if (a < c) { // now check if `a` is also less than `c`
+            if (a < d) { // now check if `a` is also less than `d`
+                return a; // if `a` is less than `b`, `c`, and `d`, `a` is smallest
+            }
+        }
+    } else { // this section handles when `b` is less than or equal to `a`
+        if (b < c) { // now check if `b` is less than `c`
+            if (b < d) { // now check if `b` is less than `d`
+                return b; // if `b` is less than `a`, `c`, and `d`, `b` is smallest
+            }
+        }
+    }
+
+    // If the previous checks didn't decide, then `c` or `d` must be the smallest
+    // So now we compare `c` and `d`
+    if (c < d) {
+        return c; // if `c` is less than `d`, then `c` is smallest
+    } else {
+        return d; // if `d` is less than or equal to `c`, then `d` is smallest
+    }
+}

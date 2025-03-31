@@ -1,0 +1,9 @@
+public static int pow(int x, int n) {
+	// Validate the input condition
+	if (n < 0) throw new IllegalArgumentException("Exponent should be non-negative.");
+	int y = 1;
+	for (int i = 0; i < n; i++) {
+		y *= x;
+	}
+	return y;
+}

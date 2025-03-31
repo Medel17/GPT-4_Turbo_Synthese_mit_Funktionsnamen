@@ -1,0 +1,15 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    int max = Integer.MIN_VALUE;
+
+    for (int num : a) {
+        if (num > max) {
+            max = num;
+            count = 1; // Reset count as a new maximum is found
+        } else if (num == max) {
+            count++; // Increment count when another max is found
+        }
+    }
+
+    return count;
+}

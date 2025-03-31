@@ -1,0 +1,21 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // ### HOLE BEGIN precondition
+    if (input.length() < 2) {
+        return sum;
+    }
+    // ### End of Missing section
+
+    for (int i = 0; i < input.length() - 1; i++) {
+        if (input.charAt(i) == input.charAt(i + 1)) {
+            sum += Character.getNumericValue(input.charAt(i));
+        }
+    }
+    
+    // Check last character with the first character for circular pairing
+    if (input.charAt(input.length() - 1) == input.charAt(0)) {
+        sum += Character.getNumericValue(input.charAt(0));
+    }
+    
+    return sum;
+}

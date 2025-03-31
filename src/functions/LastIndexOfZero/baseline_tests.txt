@@ -1,0 +1,6 @@
+Input: []  - Expected Output: -1
+Input: [-2573, 0, 0, 1822, -2426, 2427, -160, -759, -2510]  - Expected Output: 2
+Input: [0, 68, 1210, 0, 2338, 0, 0, 0, 0]  - Expected Output: 8
+Input: [321, -1572, 0, 714, 1440, -395, 0, 0, 701]  - Expected Output: 7
+Input: [2033]  - Expected Output: -1
+Input: [0, -2393, 266]  - Expected Output: 0

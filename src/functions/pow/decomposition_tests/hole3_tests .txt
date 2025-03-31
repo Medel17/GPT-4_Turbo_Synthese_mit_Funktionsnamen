@@ -1,0 +1,4 @@
+Input: k = 2 - Expected Output: k = 1
+Input: k = 3 - Expected Output: k = 1
+Input: k = 10 - Expected Output: k = 5
+Input: k = 15 - Expected Output: k = 7

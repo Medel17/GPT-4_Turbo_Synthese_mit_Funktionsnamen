@@ -1,0 +1,18 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        int c = input.charAt(i);
+
+        check += c;
+
+        if (check >= 256) {
+            check -= 256;
+        }
+    }
+
+    check %= 128;
+
+    char finalChar = (char)(check < 32 ? check + 48 : check + 16);
+
+    return "Check sum is " + finalChar;
+}

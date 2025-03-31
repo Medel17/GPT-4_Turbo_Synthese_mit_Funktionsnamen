@@ -1,0 +1,4 @@
+Input: sum = 0, element = 5    - Expected Output: sum = 5
+Input: sum = 5, element = 10    - Expected Output: sum = 15
+Input: sum = -15, element = 20    - Expected Output: sum = 5
+Input: sum = 214748364, element = 100 - Expected Output: sum = 214748464

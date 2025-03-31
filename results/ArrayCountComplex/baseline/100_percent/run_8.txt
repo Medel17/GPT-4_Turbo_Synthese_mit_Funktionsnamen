@@ -1,0 +1,21 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    for (int num : a) {
+        if (checkPrime(num) && num > 1000) {
+            count++;
+        }
+    }
+    return count;
+}
+
+private static boolean checkPrime(int number) {
+    if (number <= 1) {
+        return false;
+    }
+    for (int i = 2; i <= Math.sqrt(number); i++) {
+        if (number % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}

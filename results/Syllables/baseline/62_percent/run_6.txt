@@ -1,0 +1,16 @@
+public static String Syllables(String input) {
+    int count = 0;
+    // Identify vowels - standard English vowels
+    final String vowels = "aeiouyAEIOUY";
+    for (int i = 0; i < input.length(); i++) {
+        // Check if the character at position i is a vowel
+        if (vowels.indexOf(input.charAt(i)) != -1) {
+            // Only count vowels as syllables if they're not immediately followed by another vowel
+            // (this approximates syllable rules without getting overly complex)
+            if (i == input.length() - 1 || vowels.indexOf(input.charAt(i + 1)) == -1) {
+                count++;
+            }
+        }
+    }
+    return String.valueOf(count);
+}

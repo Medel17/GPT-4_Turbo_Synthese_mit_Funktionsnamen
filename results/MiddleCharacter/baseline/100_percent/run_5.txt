@@ -1,0 +1,9 @@
+public static String MiddleCharacter(String string) {
+    int len = string.length();
+    if (len == 0) return "";
+    if (len % 2 == 1) {
+        return String.valueOf(string.charAt(len / 2));
+    } else {
+        return string.substring(len / 2 - 1, len / 2 + 1);
+    }
+}

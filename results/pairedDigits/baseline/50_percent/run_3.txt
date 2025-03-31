@@ -1,0 +1,19 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+
+    // Check if string is empty or contains non-digit characters
+    if (input == null || input.isEmpty() || !input.matches("[0-9]+")) {
+        return sum;
+    }
+
+    for (int i = 0; i < input.length() - 1; i++) {
+        char current = input.charAt(i);
+        char next = input.charAt(i + 1);
+        // If next digit is the same as current, convert to integer and add to sum
+        if (current == next) {
+            sum += Character.getNumericValue(current);
+        }
+    }
+
+    return sum;
+}

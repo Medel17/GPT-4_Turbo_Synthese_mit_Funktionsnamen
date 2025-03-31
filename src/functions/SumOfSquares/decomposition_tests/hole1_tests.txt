@@ -1,0 +1,4 @@
+Input: sum = 0, i = 1 - Expected Output: sum = 1
+Input: sum = 14, i = 4 - Expected Output: sum = 30
+Input: sum = 140, i = 8 - Expected Output: sum = 204
+Input: sum = 1000, i = 50 - Expected Output: sum = 3500

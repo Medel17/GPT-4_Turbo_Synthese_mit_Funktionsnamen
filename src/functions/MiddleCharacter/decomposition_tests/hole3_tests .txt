@@ -1,0 +1,4 @@
+Input: string = "a" - Expected Output: "a"
+Input: string = "hello world" - Expected Output: " "
+Input: string = "hello" - Expected Output: "l"
+Input: string = "12345" - Expected Output: "3"

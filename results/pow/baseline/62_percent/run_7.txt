@@ -1,0 +1,12 @@
+public static int pow(int x, int n) {
+	// Checking if n is negative, we might need additional handling or assumptions for such cases
+	if (n < 0) {
+		return 0; // As per test case specification, when n is negative, the function returns 0
+	}
+	
+	int y = 1;
+	for (int i = 0; i < n; i++) {
+		y *= x;
+	}
+	return y;
+}

@@ -1,0 +1,14 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+
+    for (int i = 0; i < input.length() - 1; i++) { // Loop through the string, stopping short of the last character
+        char current = input.charAt(i); // Current character
+        char next = input.charAt(i + 1); // Next character
+
+        if (current == next) { // Check if the current character is the same as the next character
+            sum += Character.getNumericValue(current); // Convert the character to its numeric value and add to sum
+        }
+    }
+
+    return sum; // Return the sum of digits that are paired consecutively
+}

@@ -1,0 +1,5 @@
+Input: string = "ABCD"   - Expected Output: "BC"
+Input: string = "hello!"  - Expected Output: "ll"
+Input: string = "test"   - Expected Output: "es"
+Input: string = "ab"    - Expected Output: "ab"
+Input: string = "2020"   - Expected Output: "02"

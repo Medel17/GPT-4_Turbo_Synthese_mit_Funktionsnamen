@@ -1,0 +1,5 @@
+Input: count = 1, element = 3  - Expected Output: count = 2
+Input: count = 0, element = 1  - Expected Output: count = 1
+Input: count = 3, element = -8  - Expected Output: count = 3
+Input: count = 0, element = -5  - Expected Output: count = 1
+Input: count = 2, element = -7  - Expected Output: count = 2

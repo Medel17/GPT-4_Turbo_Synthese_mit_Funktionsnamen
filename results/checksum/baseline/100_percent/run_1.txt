@@ -1,0 +1,10 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        // ### Missing section
+        check = (check + input.charAt(i)) % 256;
+        // ### End of Missing section
+    }
+    // Convert the accumulated check value to a character in ASCII
+    return "Check sum is " + (char)check;
+}

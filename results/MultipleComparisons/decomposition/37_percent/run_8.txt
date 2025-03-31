@@ -1,0 +1,27 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    int GA, SB;
+
+    // ### HOLE BEGIN clamp1
+    if (a1 > a2) {
+        GA = a1;
+    } else {
+        GA = a2;
+    }
+    // ### HOLE END
+
+    // ### HOLE BEGIN clamp2
+    if (b1 < b2) {
+        SB = b1;
+    } else {
+        SB = b2;
+    }
+    // ### HOLE END
+
+    // ### HOLE BEGIN clamp3
+    if (GA > SB) {
+        return GA;
+    } else {
+        return SB;
+    }
+    // ### HOLE END
+}

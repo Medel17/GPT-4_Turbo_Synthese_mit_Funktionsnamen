@@ -1,0 +1,12 @@
+public static int MedianOfThree(int a, int b, int c) {
+    if (a < b) {
+        if (a > c) return a;
+        else if (b < c) return b;
+        else return c;
+    } else {
+        // The logic when a is not less than b
+        if (a < c) return a;
+        else if (b > c) return b;
+        else return c;
+    }
+}

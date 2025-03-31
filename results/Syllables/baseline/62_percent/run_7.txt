@@ -1,0 +1,12 @@
+public static String Syllables(String input) {
+    int count = 0;
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'y') {
+            if (i == 0 || !(input.charAt(i - 1) == 'a' || input.charAt(i - 1) == 'e' || input.charAt(i - 1) == 'i' || input.charAt(i - 1) == 'o' || input.charAt(i - 1) == 'u' || input.charAt(i - 1) == 'y')) {
+                count++;
+            }
+        }
+    }
+    return String.valueOf(count);
+}

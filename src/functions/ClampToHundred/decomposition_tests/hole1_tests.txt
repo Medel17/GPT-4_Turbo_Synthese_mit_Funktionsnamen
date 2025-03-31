@@ -1,0 +1,2 @@
+Input: n = -150 - Expected Output: -100
+Input: n = -100 - Expected Output: -100

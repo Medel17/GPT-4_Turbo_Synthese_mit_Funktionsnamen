@@ -1,0 +1,20 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    for (int num : a) {
+        boolean allDigitsEven = true;
+
+        int n = Math.abs(num);
+        while (n > 0) {
+            int digit = n % 10;
+            if (digit % 2 != 0) {
+                allDigitsEven = false;
+                break;
+            }
+            n /= 10;
+        }
+
+        if (allDigitsEven) count++;
+    }
+
+    return count;
+}

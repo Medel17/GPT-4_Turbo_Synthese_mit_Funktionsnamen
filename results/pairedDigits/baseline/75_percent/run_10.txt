@@ -1,0 +1,16 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // ### HOLE BEGIN precondition
+    if (input.length() < 2) {
+        return 0;
+    }
+    for (int i = 0; i < input.length() - 1; i++) {
+        char current = input.charAt(i);
+        char next = input.charAt(i + 1);
+        if (current == next) {
+            sum += Character.getNumericValue(current);
+        }
+    }
+    // ### End of Missing section
+    return sum;
+}

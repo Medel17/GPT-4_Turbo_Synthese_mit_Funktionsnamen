@@ -1,0 +1,20 @@
+public static int pow(int x, int n) {
+	// Early return for zero base
+	if (x == 0) {
+		return 0; // 0 to any positive exponent is 0
+	}
+	// Handling negative exponents by returning 0 as per unit tests suggestions
+	if (n < 0) {
+		return 0;
+	}
+	// Handle n == 0 separately (any number to the power of 0 is 1)
+	if (n == 0) {
+		return 1;
+	}
+
+	int y = 1;
+	for (int i = 1; i <= n; i++) {
+		y *= x;
+	}
+	return y;
+}

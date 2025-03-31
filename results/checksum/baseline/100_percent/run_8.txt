@@ -1,0 +1,8 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check += input.charAt(i);
+    }
+    check %= 128;  // Use modulo to wrap around the ASCII table
+    return "Check sum is " + (char) check;
+}

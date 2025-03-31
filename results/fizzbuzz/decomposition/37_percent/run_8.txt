@@ -1,0 +1,22 @@
+public static String fizzbuzz(int x) {
+    String result = "";
+    // ### HOLE BEGIN fizz
+    if (x % 3 == 0 && x % 5 != 0) {
+        result += "Fizz";
+    }
+    // ### HOLE END
+    // ### HOLE BEGIN buzz
+    if (x % 5 == 0 && x % 3 != 0) {
+        result += "Buzz";
+    }
+    if (x % 15 == 0) {
+        result = "FizzBuzz";
+    }
+    // ### HOLE END
+    // ### HOLE BEGIN number
+    if (x % 3 != 0 && x % 5 != 0) {
+        result += String.valueOf(x);
+    }
+    // ### HOLE END
+    return result;
+}

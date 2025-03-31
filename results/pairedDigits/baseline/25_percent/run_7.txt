@@ -1,0 +1,22 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+
+    // Check for odd number of digits or single digits
+    if (input.length() % 2 != 0 || input.length() < 2) {
+        return sum;
+    }
+
+    // Iterate through the string in steps of 2
+    for (int i = 0; i < input.length(); i += 2) {
+        // Get the current two characters
+        char ch1 = input.charAt(i);
+        char ch2 = input.charAt(i + 1);
+
+        // Check if both characters are digits and are the same
+        if (Character.isDigit(ch1) && ch1 == ch2) {
+            // Convert character to its numeric value and add it to sum
+            sum += Character.getNumericValue(ch1);
+        }
+    }
+    return sum;
+}

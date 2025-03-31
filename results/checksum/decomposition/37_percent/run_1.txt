@@ -1,0 +1,19 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        int c = input.charAt(i);
+        
+        check += c;
+        
+    }
+    int mod = check % 256;
+    
+    char csumChar = (char) mod;
+    
+    if (csumChar < ' ' || csumChar > '~') {
+        csumChar = (char)(((int)csumChar % 64) + 32);
+    }
+    
+    String result = "Check sum is " + csumChar;
+    return result;
+}

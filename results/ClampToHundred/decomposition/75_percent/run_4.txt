@@ -1,0 +1,19 @@
+public static int ClampToHundred(int n) {
+    int result;
+    // ### HOLE BEGIN clamp1
+    if (n < -100) {
+        result = -100;
+        return result;
+    }
+    // ### HOLE END
+    // ### HOLE BEGIN clamp2
+    if (n > 100) {
+       result = 100;
+       return result;
+    }
+    // ### HOLE END
+    // ### HOLE BEGIN clamp3
+    result = n;  // This will handle all cases where n is between -100 and 100 inclusive
+    // ### HOLE END
+    return result;
+}

@@ -1,0 +1,27 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // Check if the input string has at least two digits
+    if (input.length() < 2) {
+        return sum;
+    }
+
+    // Iterate through the string except the last character
+    for (int i = 0; i < input.length() - 1; i++) {
+        // Get current and next characters
+        char current = input.charAt(i);
+        char next = input.charAt(i + 1);
+
+        // Check if they are digits
+        if (Character.isDigit(current) && Character.isDigit(next)) {
+            // Convert characters to integers
+            int currentDigit = Character.getNumericValue(current);
+            int nextDigit = Character.getNumericValue(next);
+
+            // Check if the digits are equal
+            if (currentDigit == nextDigit) {
+                sum += currentDigit; // Add the digit to the sum
+            }
+        }
+    }
+    return sum;
+}

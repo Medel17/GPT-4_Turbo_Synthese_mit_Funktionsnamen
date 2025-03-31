@@ -1,0 +1,4 @@
+Input: GA = 5, SB = 3 - Expected Output: 2
+Input: GA = 10, SB = 0 - Expected Output: 10
+Input: GA = 0, SB = 5 - Expected Output: -5
+Input: GA = -1, SB = -3 - Expected Output: 2

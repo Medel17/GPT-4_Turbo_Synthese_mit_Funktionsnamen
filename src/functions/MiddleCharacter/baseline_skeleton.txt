@@ -1,0 +1,5 @@
+public static String MiddleCharacter(String string) {
+	// ### Missing section
+
+    // ### End of Missing section
+}

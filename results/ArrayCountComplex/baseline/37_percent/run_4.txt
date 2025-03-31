@@ -1,0 +1,33 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    for (int num : a) {
+        if (num < 0 && isComplex(num)) {
+            count++;
+        }
+    }
+    return count;
+}
+
+private static boolean isComplex(int n) {
+    int absN = Math.abs(n);
+    if (absN < 1000) return false;
+    int digitsCount = (int) Math.log10(absN) + 1;
+    if (digitsCount % 2 == 1) return true;
+    for (int i = 1; i < digitsCount; i++) {
+        int divisor = (int) Math.pow(10, i);
+        int left = absN / divisor;
+        int right = absN % divisor;
+        if (isPrime(left) && isPrime(right)) return true;
+    }
+    return false;
+}
+
+private static boolean isPrime(int num) {
+    if (num <= 1) return false;
+    if (num <= 3) return true;
+    if (num % 2 == 0 || num % 3 == 0) return false;
+    for (int i = 5; i * i <= num; i += 6) {
+        if (num % i == 0 || num % (i + 2) == 0) return false;
+    }
+    return true;
+}

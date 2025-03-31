@@ -1,0 +1,26 @@
+public static int gcd(int a, int b) {
+	// ### HOLE BEGIN clamp1
+	if (a == 0) return 0;
+	// ### HOLE END
+	// ### HOLE BEGIN clamp2
+	if (b == 0) return 0;
+	// ### HOLE END
+	// ### HOLE BEGIN clamp3
+	if (a == 0) return b;
+	else if (b == 0) return a;
+	// ### HOLE END
+	// ### HOLE BEGIN clamp4
+	while (b != 0) {
+		// ### HOLE BEGIN clamp5
+		int temp = b;
+		// ### HOLE END
+		
+		// ### HOLE BEGIN clamp6
+		b = a % b;
+		// ### HOLE END
+
+	// ### HOLE END
+		a = temp;
+	}
+	return a;
+}

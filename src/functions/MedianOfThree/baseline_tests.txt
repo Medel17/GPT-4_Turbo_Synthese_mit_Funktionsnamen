@@ -1,0 +1,9 @@
+Input: a = -2005, b = 2510, c = -586 - Expected Output: -586
+Input: a = -190, b = 2762, c = 2393 - Expected Output: 2393
+Input: a = 1044, b = 2065, c = -1889 - Expected Output: -1889
+Input: a = -2281, b = 925, c = -989 - Expected Output: -989
+Input: a = 2930, b = 541, c = -1141 - Expected Output: -1141
+Input: a = -134, b = 2723, c = -779 - Expected Output: -779
+Input: a = -704, b = -2701, c = -765 - Expected Output: -765
+Input: a = 1084, b = -1424, c = 2799 - Expected Output: 1084
+Input: a = 2678, b = -1746, c = 2675 - Expected Output: 2675

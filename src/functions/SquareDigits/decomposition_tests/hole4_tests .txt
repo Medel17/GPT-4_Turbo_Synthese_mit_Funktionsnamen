@@ -1,0 +1,4 @@
+Input: x = 5 - Expected Output: x = 0
+Input: x = 123 - Expected Output: x = 12
+Input: x = 1001 - Expected Output: x = 100
+Input: x = 1000 - Expected Output: x = 100

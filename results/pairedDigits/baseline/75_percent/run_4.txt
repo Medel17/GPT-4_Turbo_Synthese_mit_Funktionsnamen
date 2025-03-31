@@ -1,0 +1,19 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // Ensure input is not null and has a length of at least 2 for pairing
+    if (input == null || input.length() < 2) {
+        return sum;
+    }
+
+    // Process pairs of digits
+    for (int i = 0; i < input.length() - 1; i++) {
+        char current = input.charAt(i);
+        char next = input.charAt(i + 1);
+        if (current == next) {
+            sum += Character.getNumericValue(current);
+        }
+    }
+
+    // Return the accumulated sum of paired digits
+    return sum;
+}

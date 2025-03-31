@@ -1,0 +1,10 @@
+Input: x = -10, n = 1 - Expected Output: -10
+Input: x = -8, n = -15 - Expected Output: 0
+Input: x = -9, n = 2 - Expected Output: 81
+Input: x = -8, n = 0 - Expected Output: 1
+Input: x = 3, n = -1 - Expected Output: 0
+Input: x = 10, n = 1 - Expected Output: 10
+Input: x = 8, n = 4 - Expected Output: 4096
+Input: x = 0, n = 6 - Expected Output: 0
+Input: x = 8, n = -8 - Expected Output: 0
+Input: x = 2, n = 25 - Expected Output: 33554432

@@ -1,0 +1,2 @@
+Input: string = "" - Expected Output: ""
+Input: string = new String() - Expected Output: ""

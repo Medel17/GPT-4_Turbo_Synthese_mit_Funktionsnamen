@@ -1,0 +1,15 @@
+public static String DoubleLetters(String input) {
+	String output = "";
+	for (int i = 0; i < input.length(); i++) {
+		char c = input.charAt(i);
+		int count = 1;
+		if (Character.isLowerCase(c) && c >= 'm' && c <= 'z') { count = 2; } // hole1_tests
+		if (Character.isUpperCase(c) && c >= 'A' && c <= 'M') { count = 2; } // hole2_tests
+		if (c == '!') { count = 3; }  // hole3_tests
+		while (count > 0) {
+			output += c;
+			count--;
+		}
+	}
+	return output;
+}

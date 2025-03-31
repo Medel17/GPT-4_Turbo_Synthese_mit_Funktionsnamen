@@ -1,0 +1,36 @@
+public static String DoubleLetters(String input) {
+    String output = "";
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        int count = 2; // All characters are doubled, so start from 2
+
+        // ### Missing section
+        if (c == 'A' || c == 'B' || c == 'C' || c == 'D' || c == 'E' || c == 'F' || c == 'G' ||
+            c == 'H' || c == 'I' || c == 'J' || c == 'K' || c == 'L' || c == 'M' || c == 'N' ||
+            c == 'O' || c == 'P' || c == 'Q' || c == 'R' || c == 'S' || c == 'T' || c == 'U' ||
+            c == 'V' || c == 'W' || c == 'X' || c == 'Y' || c == 'Z' ||
+            c == 'a' || c == 'b' || c == 'c' || c == 'd' || c == 'e' || c == 'f' || c == 'g' ||
+            c == 'h' || c == 'i' || c == 'j' || c == 'k' || c == 'l' || c == 'm' || c == 'n' ||
+            c == 'o' || c == 'p' || c == 'q' || c == 'r' || c == 's' || c == 't' || c == 'u' ||
+            c == 'v' || c == 'w' || c == 'x' || c == 'y' || c == 'z' ||
+            c == '0' || c == '1' || c == '2' || c == '3' || c == '4' ||
+            c == '5' || c == '6' || c == '7' || c == '8' || c == '9' ||
+            c == '!' || c == '@' || c == '#' || c == '$' || c == '%' || 
+            c == '^' || c == '&' || c == '*' || c == '(' || c == ')' || 
+            c == '-' || c == '_' || c == '=' || c == '+' || c == '[' || 
+            c == ']' || c == '{' || c == '}' || c == ':' || c == ';' || 
+            c == ',' || c == '.' || c == '<' || c == '>' || c == '?' || 
+            c == '/' || c == '|' || c == '`' || c == '\\' || c == '\'' || c == '\"' || c == ' ') {
+            // These characters need to be doubled
+        } else {
+            count = 1; // if it's an unhandled character, print it only once
+        }
+        // ### End of Missing section
+
+        while (count > 0) {
+            output += c;
+            count--;
+        }
+    }
+    return output;
+}

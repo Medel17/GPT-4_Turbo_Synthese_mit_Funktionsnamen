@@ -1,0 +1,22 @@
+public static String DoubleLetters(String input) {
+    String output = "";
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        int count = 1;
+
+        // Count consecutive occurrences of the character
+        while (i + 1 < input.length() && input.charAt(i + 1) == c) {
+            count++;
+            i++;
+        }
+
+        // Determine how many times to double the letters
+        count *= 2;
+
+        while (count > 0) {
+            output += c;
+            count--;
+        }
+    }
+    return output;
+}

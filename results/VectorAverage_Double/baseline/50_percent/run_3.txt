@@ -1,0 +1,12 @@
+public static double VectorAverage_Double(double[] arr) {
+	if (arr == null || arr.length == 0) {
+		throw new IllegalArgumentException("Array must not be null or empty");
+	}
+
+	double sum = 0;
+	for (double element : arr) {
+		sum += element; // Adds each element to the sum
+	}
+	double length = arr.length;
+	return sum / length; // Computes average by dividing sum by the number of elements
+}

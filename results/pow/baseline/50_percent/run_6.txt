@@ -1,0 +1,11 @@
+public static int pow(int x, int n) {
+    // Validate if n is negative or zero and x raised to zero should always return zero 
+    if (n <= 0) {
+        return 0;
+    }
+    int y = 1;
+    for (int i = 1; i <= n; i++) {
+        y *= x;
+    }
+    return y;
+}

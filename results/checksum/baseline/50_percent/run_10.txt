@@ -1,0 +1,7 @@
+public static String checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check ^= input.charAt(i); // XOR operation
+    }
+    return "Check sum is " + (input.isEmpty() ? "" : (char) check);
+}

@@ -1,0 +1,3 @@
+Input: c = 'a'  - Expected Output: count = 2
+Input: c = 'z'  - Expected Output: count = 2
+Input: c = 'm'  - Expected Output: count = 2

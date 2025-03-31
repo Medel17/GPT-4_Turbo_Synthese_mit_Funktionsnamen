@@ -1,0 +1,10 @@
+Input: 7  - Expected Output: 16
+Input: 3582  - Expected Output: 100
+Input: 4054  - Expected Output: 157
+Input: -7581  - Expected Output: 0
+Input: 9169  - Expected Output: 153
+Input: 4061  - Expected Output: 38
+Input: 1  - Expected Output: 0
+Input: 2338  - Expected Output: 58
+Input: 9532  - Expected Output: 52
+Input: 1546  - Expected Output: 122

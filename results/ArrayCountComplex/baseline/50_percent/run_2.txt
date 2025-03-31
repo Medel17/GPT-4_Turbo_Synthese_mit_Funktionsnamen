@@ -1,0 +1,16 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    boolean foundPositive = false;
+
+    for (int value : a) {
+        if (value > 0) {
+            if (!foundPositive) {
+                foundPositive = true;
+                count += 1;
+            }
+        } else {
+            foundPositive = false;
+        }
+    }
+    return count;
+}

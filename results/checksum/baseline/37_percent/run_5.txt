@@ -1,0 +1,9 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check += (int)input.charAt(i);
+    }
+    check %= 256;  // Modulo 256 to get an 8-bit checksum
+    char result = (char)check;
+    return "Check sum is " + result;
+}

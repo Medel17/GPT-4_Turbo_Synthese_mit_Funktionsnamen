@@ -1,0 +1,15 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        int c = input.charAt(i); // hole1
+        check = check + c; // hole2
+    }
+    int csum = check % 256; // hole3
+    char checksumChar = (char) csum; // hole4
+    switch (checksumChar) { // hole5
+        case '0': checksumChar = 'P'; break;
+        case '!': checksumChar = 'A'; break;
+        case '?': checksumChar = '_'; break;
+    }
+    return "Check sum is " + checksumChar; // hole6
+}

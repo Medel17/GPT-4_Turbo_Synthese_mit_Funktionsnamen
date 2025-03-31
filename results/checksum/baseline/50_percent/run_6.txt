@@ -1,0 +1,8 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check += input.charAt(i);  // Adding ASCII values of all characters
+    }
+    char checksumChar = (char)(check % 128); // Reducing to ASCII by modulo operation
+    return "Check sum is " + checksumChar;
+}

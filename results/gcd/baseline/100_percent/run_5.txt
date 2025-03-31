@@ -1,0 +1,13 @@
+public static int gcd(int a, int b) {
+    // Ensure the absolute value for handling negatives
+    a = Math.abs(a);
+    b = Math.abs(b);
+
+    // Base case: if one number is 0, return the other number
+    if (b == 0) {
+        return a;
+    }
+
+    // Recursion to the Euclidean algorithm
+    return gcd(b, a % b);
+}

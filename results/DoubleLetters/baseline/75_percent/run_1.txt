@@ -1,0 +1,19 @@
+public static String DoubleLetters(String input) {
+    String output = "";
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        int count = 2;  // Every character will be duplicated, so the count is always set to 2.
+
+        // ### Missing section
+        // The missing section was intended for initialization or conditions affecting the duplication,
+        // but as per unit tests and task, every character repeats exactly twice.
+
+        // ### End of Missing section
+
+        while (count > 0) {
+            output += c;
+            count--;
+        }
+    }
+    return output;
+}

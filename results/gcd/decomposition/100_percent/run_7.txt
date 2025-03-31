@@ -1,0 +1,18 @@
+public static int gcd(int a, int b) {
+    if (a < 0) a = -a; // Hole 1
+
+    if (b < 0) b = -b; // Hole 2
+
+    if (a == 0) return b; // Hole 3
+
+    while (b != 0) {
+        if (a > b) {
+            a = a - b; // Hole 5
+        } else {
+            int temp = b;
+            b = a;
+            a = temp; // Hole 6
+        }
+    }
+    return a; // Hole 4
+}

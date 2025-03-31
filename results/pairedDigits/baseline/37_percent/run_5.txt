@@ -1,0 +1,22 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+
+    // Check if the input is null, empty, or has a single character
+    if (input == null || input.length() < 2) {
+        return 0;
+    }
+
+    // Loop through the string and check each pair of characters
+    for (int i = 0; i < input.length() - 1; i++) {
+        char currentChar = input.charAt(i);
+        char nextChar = input.charAt(i + 1);
+
+        // If the current and next characters are the same, add their numeric value to the sum
+        if (currentChar == nextChar) {
+            sum += Character.getNumericValue(currentChar);
+        }
+    }
+
+    // Return the sum of all paired digits
+    return sum;
+}

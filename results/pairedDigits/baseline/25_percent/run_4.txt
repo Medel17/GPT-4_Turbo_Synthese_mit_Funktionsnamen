@@ -1,0 +1,19 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+
+    // Check if the input string length is odd, if odd return 0
+    if (input.length() % 2 != 0) {
+        return 0;
+    }
+
+    // Calculate the sum of pairs of digits where both digits in the pair are the same
+    for (int i = 0; i < input.length() - 1; i += 2) {
+        char first = input.charAt(i);
+        char second = input.charAt(i + 1);
+        if (first == second) {
+            sum += Character.getNumericValue(first);
+        }
+    }
+
+    return sum;
+}

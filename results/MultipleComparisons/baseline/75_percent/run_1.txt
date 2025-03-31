@@ -1,0 +1,5 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    int resultA = Math.max(Math.abs(a1), Math.abs(a2));
+    int resultB = Math.max(Math.abs(b1), Math.abs(b2));
+    return resultA + resultB;
+}

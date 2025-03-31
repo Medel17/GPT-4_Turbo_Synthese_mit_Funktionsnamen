@@ -1,0 +1,10 @@
+public static String SmallOrLarge(int n) {
+    // Determine if the number is large or small based on the provided limits
+    if (n < 0) {
+        return "small";   // Negative numbers are considered "small"
+    } else if (n >= 2000) {
+        return "large";   // Numbers 2000 or above are considered "large"
+    } else {
+        return "";        // Numbers between 0 and 1999 (exclusive) are neither "small" nor "large"
+    }
+}

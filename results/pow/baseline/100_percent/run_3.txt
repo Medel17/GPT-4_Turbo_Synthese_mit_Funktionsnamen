@@ -1,0 +1,14 @@
+public static int pow(int x, int n) {
+	if (n < 0) {
+		return 0; // Based on the unit test, any negative power should return 0.
+	}
+	int y = 1; // Initialize result for multiplication identity.
+	while (n != 0) {
+		if (n % 2 == 1) {
+			y *= x; // Multiply the current value of x to y when n is odd.
+		}
+		x *= x; // Square the base.
+		n /= 2; // Divide n by 2.
+	}
+	return y;
+}

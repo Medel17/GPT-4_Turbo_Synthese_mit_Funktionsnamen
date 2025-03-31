@@ -1,0 +1,20 @@
+public static int pow(int x, int n) {
+	// Handle negative exponent case immediately
+	if (n < 0) {
+		return 0;
+	}
+	// Handle zero exponent case
+	if (n == 0) {
+		return 1;
+	}
+	// Handle zero base case
+	if (x == 0) {
+		return 0;
+	}
+
+	int y = 1;
+	for (int i = 1; i <= n; i++) {
+		y *= x;
+	}
+	return y;
+}

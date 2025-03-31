@@ -1,0 +1,8 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    // Find maximum of a1 and a2, and minimum of b1 and b2.
+    int maxA = Math.max(a1, a2);
+    int minB = Math.min(b1, b2);
+
+    // Calculate absolute difference between max of a's and min of b's.
+    return Math.abs(maxA - minB);
+}

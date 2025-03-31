@@ -1,0 +1,11 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        int c = input.charAt(i); // HOLE 1 - char to ASCII
+        check += c; // HOLE 2 - summing ASCII values
+    }
+    check = check % 256; // HOLE 3 - modulus 256
+    char finalChar = (char) check; // HOLE 4 - cast to char
+    finalChar = (char) ((finalChar - '0') % ('Z' - '0' + 1) + '0'); // HOLE 5 - map to '0' - 'Z'
+    return "Check sum is " + finalChar; // HOLE 6 - return statement
+}

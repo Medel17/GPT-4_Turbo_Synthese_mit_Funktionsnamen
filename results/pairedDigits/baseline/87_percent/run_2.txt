@@ -1,0 +1,18 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // Check for empty string or string with only one character
+    if (input == null || input.length() < 2) {
+        return sum;
+    }
+
+    // Loop through the string and check for paired digits
+    for (int i = 0; i < input.length() - 1; i++) {
+        char current = input.charAt(i);
+        char next = input.charAt(i + 1);
+        if (current == next) {
+            // Convert the character to its numeric value and add to sum
+            sum += Character.getNumericValue(current);
+        }
+    }
+    return sum;
+}

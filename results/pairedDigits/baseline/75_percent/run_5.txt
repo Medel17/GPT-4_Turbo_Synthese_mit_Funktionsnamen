@@ -1,0 +1,19 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // Check that input length is at least 2 to have paired digits
+    if (input.length() < 2) {
+        return 0;
+    }
+    // Iterate over string except for the last character
+    for (int i = 0; i < input.length() - 1; i++) {
+        // Get current character and the next one
+        char current = input.charAt(i);
+        char next = input.charAt(i + 1);
+        // Check if the characters are the same and add their numeric value to sum
+        if (current == next) {
+            // Add numeric value of the current character, converting from character to integer
+            sum += Integer.parseInt(String.valueOf(current));
+        }
+    }
+    return sum;
+}

@@ -1,0 +1,250 @@
+lastIndexOfZero([-227, 2654, -1470, 966, 2429, -472, -2887, 2814, 979, 1050]) == -1
+lastIndexOfZero([-2463, -372, -553, -200, 175]) == -1
+lastIndexOfZero([1391, 0, -234, -1867, -1616, 0, 0]) == 6
+lastIndexOfZero([0]) == 0
+lastIndexOfZero([-1627, -306, -533, 526, 2335, -1398, 0, 0, 1900]) == 7
+lastIndexOfZero([-2756, 0, 2084, -725, 0, -270, -514, 1814, -903, -1087]) == 4
+lastIndexOfZero([-1526, 0, 2088, -2461, -2229, 120, 2172]) == 1
+lastIndexOfZero([]) == -1
+lastIndexOfZero([673]) == -1
+lastIndexOfZero([-2035, 1473, -321, 1615, -2504, -213, 0, 0, -1392]) == 7
+lastIndexOfZero([0, -800]) == 0
+lastIndexOfZero([2691, 1999, -507, -902, 0, 400, 1423, 0, 0, -2306]) == 8
+lastIndexOfZero([-1660, -27, 0, 1772, 3000, -915, 0, 272, 46, -2913]) == 6
+lastIndexOfZero([2322, 1403, 0, 1243]) == 2
+lastIndexOfZero([191, 0, -2543, 0, 0, 820, -2559]) == 4
+lastIndexOfZero([0, 0, -492, -2153, 0, 0, -2537, 0]) == 7
+lastIndexOfZero([-1365, 335, 2385, -237, -2223, 1779, -933, 0, -1127, 2791]) == 7
+lastIndexOfZero([-1397, -2590, 803, 0, -805]) == 3
+lastIndexOfZero([2410, -2225, 0, 0, 825]) == 3
+lastIndexOfZero([0, 0, -2587, -513, -2601, 0, 2035, 2051]) == 5
+lastIndexOfZero([2000, -2537, 2356, -2112, -2022, 2834]) == -1
+lastIndexOfZero([-2798, 0, 0]) == 2
+lastIndexOfZero([0, 0, 0, 0]) == 3
+lastIndexOfZero([-1789, 0, 0, 0, 8]) == 3
+lastIndexOfZero([0, 1557, 2519, -1494, 0, 1771, 0]) == 6
+lastIndexOfZero([-640, 78, 764, 0, -1055]) == 3
+lastIndexOfZero([0]) == 0
+lastIndexOfZero([-2502, -971, 0, 0, 2631, -1133, 81, -265, -1447, -1005]) == 3
+lastIndexOfZero([0]) == 0
+lastIndexOfZero([-232]) == -1
+lastIndexOfZero([0, 0, 0, -1473, 0, -186, 0, 1758]) == 6
+lastIndexOfZero([-1801, 0, -679, 2085, 0, 0, 906, 0, 1259, 1171]) == 7
+lastIndexOfZero([1541, 1872, -319]) == -1
+lastIndexOfZero([]) == -1
+lastIndexOfZero([1490, -177, 921, 2798, 2033, -1181, 0, -592, -50, 0]) == 9
+lastIndexOfZero([2785]) == -1
+lastIndexOfZero([2401, 358, 895, 731, 0, 2954]) == 4
+lastIndexOfZero([]) == -1
+lastIndexOfZero([687, 759, -1286, 170, -1243, 571, -1665, 0]) == 7
+lastIndexOfZero([]) == -1
+lastIndexOfZero([-1638, 2121, 0, 136, 0, 181, 0, 1117, -512, 5]) == 6
+lastIndexOfZero([-960]) == -1
+lastIndexOfZero([-107, 1749, -2196, 0, -1294, 691, 77, 1789, 1031, 0]) == 9
+lastIndexOfZero([-2545]) == -1
+lastIndexOfZero([-1649, 1901, -970, 0, -2276, -177]) == 3
+lastIndexOfZero([-1706, 2206]) == -1
+lastIndexOfZero([1146, 0, -612, 1513, -182, -2120, 0]) == 6
+lastIndexOfZero([-80, 0, -1989, 2751, -2068, -2682, 0, -1392, 2637]) == 6
+lastIndexOfZero([-2034, 0, -1164, -2822, 702, -130, 600]) == 1
+lastIndexOfZero([1748, -1460, 2254]) == -1
+lastIndexOfZero([-2393, -1290]) == -1
+lastIndexOfZero([0]) == 0
+lastIndexOfZero([0, 0, 0, -1295, 1866, 0, 1719, 719, 280]) == 5
+lastIndexOfZero([945, 0]) == 1
+lastIndexOfZero([-1954, 0, -2313, -1286, 2486, 0, -2821, -919, 1885]) == 5
+lastIndexOfZero([0, 445, 1961, 2554, 1734, 0, 1605, -2772, 1518, 1033]) == 5
+lastIndexOfZero([-630, 735]) == -1
+lastIndexOfZero([]) == -1
+lastIndexOfZero([261, -1758, 0, 2816, 95, 0, -1210, 0, 0, 727]) == 8
+lastIndexOfZero([1333, 0]) == 1
+lastIndexOfZero([0, 100, 911, 492]) == 0
+lastIndexOfZero([450, -560, -1940, 0, 0, -534]) == 4
+lastIndexOfZero([]) == -1
+lastIndexOfZero([509, 0]) == 1
+lastIndexOfZero([-1127]) == -1
+lastIndexOfZero([-2753, 0, 127, 1636, 0, 2104, 886]) == 4
+lastIndexOfZero([0, -2865]) == 0
+lastIndexOfZero([-2711, 206, -633, -111, 0, -2529]) == 4
+lastIndexOfZero([1535, -1347, 0, -1757, 1211, -467, 0, -2022, 1152]) == 6
+lastIndexOfZero([2827, 0, 0, 2076, -156, 0, 0, -2803, -182, 1061]) == 6
+lastIndexOfZero([0]) == 0
+lastIndexOfZero([0, 1600, 0, -580, -1455, 111, 2839, 0, 0]) == 8
+lastIndexOfZero([4, -569, 2894, -2606, 2094, -2438]) == -1
+lastIndexOfZero([-1234, 2735, 238, 2006, 1815, 2631, 0, 625, -2749]) == 6
+lastIndexOfZero([855, 1174, 0, 0]) == 3
+lastIndexOfZero([-2531, -618, 712, 347, 0, -2756, -2214, 0, 0, 0]) == 9
+lastIndexOfZero([-234]) == -1
+lastIndexOfZero([]) == -1
+lastIndexOfZero([0]) == 0
+lastIndexOfZero([-2176, -1577, -1813]) == -1
+lastIndexOfZero([-622]) == -1
+lastIndexOfZero([1745, -266, 766, -806]) == -1
+lastIndexOfZero([-2669, 0, 1157, -723, -836, 0, 0, -1309, 0]) == 8
+lastIndexOfZero([-2244, 0, 0]) == 2
+lastIndexOfZero([1617]) == -1
+lastIndexOfZero([0, 0, 0, 1990, -950, 1396, 674]) == 2
+lastIndexOfZero([-2571]) == -1
+lastIndexOfZero([-2276, 83, 862, -628]) == -1
+lastIndexOfZero([1208, 196, 0, 0, -2597, 2956, -504, -2727, 225, 0]) == 9
+lastIndexOfZero([1507, 0, -1561, 2124, -2732, -1492, -1660, -1428, -2780, -880]) == 1
+lastIndexOfZero([0, -2807, 0, -1508, 893, 0]) == 5
+lastIndexOfZero([0, 0, -56, 0, -1852]) == 3
+lastIndexOfZero([2071, -1680, 0, 0]) == 3
+lastIndexOfZero([669, 0, 0]) == 2
+lastIndexOfZero([0, 0, -1067, -977, 2727, 0, 2577]) == 5
+lastIndexOfZero([-2039, -2034, 143, 0, 0, -435]) == 4
+lastIndexOfZero([0, 0, 0, 0, -581, -1081, 0]) == 6
+lastIndexOfZero([1221, 2619, -2948, 683, -64, -660, 0, 0, -1516]) == 7
+lastIndexOfZero([0, 0, -2781, 1399, 0, 25, 660, 0, 2293]) == 7
+lastIndexOfZero([-1607, 1518, -2803, 0, 0, -316, 0]) == 6
+lastIndexOfZero([-2104, 2128, 0, 0, -2557, 607, 908, -1044, -2259, -1299]) == 3
+lastIndexOfZero([-271, 704, 206]) == -1
+lastIndexOfZero([-1590, 0, 0, -2569, -355, 2029, 1120, 522, 1147]) == 2
+lastIndexOfZero([-1269, -462, -646, 0, -1945, -958]) == 3
+lastIndexOfZero([]) == -1
+lastIndexOfZero([-2738, -1184, 0, -536, 0, -1545, 437]) == 4
+lastIndexOfZero([1868, 0, 0, 0, 1119, 2566, -1115, 0]) == 7
+lastIndexOfZero([]) == -1
+lastIndexOfZero([-2354]) == -1
+lastIndexOfZero([0, 2164, 0, 2165, 2542, -2617, 576, -409]) == 2
+lastIndexOfZero([-880, 0, -1315, 1724, -406, 1933, 0, -2761, -2253, 0]) == 9
+lastIndexOfZero([2475]) == -1
+lastIndexOfZero([]) == -1
+lastIndexOfZero([0, 1139, -1565, 482, 1798, 284, -2231, 0, 0]) == 8
+lastIndexOfZero([1124, 0, 0, 1663, 1786, 2247]) == 2
+lastIndexOfZero([-273, -758, 2697, 0, 0, 1846]) == 4
+lastIndexOfZero([-2911]) == -1
+lastIndexOfZero([672, 0, -2748, 0, -2036, -277, 2966, 1749]) == 3
+lastIndexOfZero([-376, 0]) == 1
+lastIndexOfZero([1271, 82, -750, 1337, -550, -2974, 0, 0, -255]) == 7
+lastIndexOfZero([157]) == -1
+lastIndexOfZero([0, 343, -2622, -1006, 1459, 1127]) == 0
+lastIndexOfZero([1484, -1444, -27, -69]) == -1
+lastIndexOfZero([0, -2610, 0, 243, -751, -2693, -1791, 0]) == 7
+lastIndexOfZero([-2505, -135, 0, -2132, 2823, 922]) == 2
+lastIndexOfZero([0, 2020, 1865]) == 0
+lastIndexOfZero([2753, 188, 1516]) == -1
+lastIndexOfZero([0, 0, 1534, 2556, 0, -1554, -1776, -11]) == 4
+lastIndexOfZero([0, 993, 0]) == 2
+lastIndexOfZero([93, 0, 0, 1072, -2296, 2326, 0, 0, -1270]) == 7
+lastIndexOfZero([-2339, -2400, -470, -2356, 1511, -1072, -1389, 1885, -247, -2384]) == -1
+lastIndexOfZero([0, 1385, 0, 2876]) == 2
+lastIndexOfZero([0, 0, 2568, 0, 0, 84, 0, -2286, 0]) == 8
+lastIndexOfZero([1724, 2087, -1603, 0, 1273, 2300]) == 3
+lastIndexOfZero([2375, -2994, -2270, 1326, -2200, 0, 0, -2630, 808]) == 6
+lastIndexOfZero([]) == -1
+lastIndexOfZero([-2087]) == -1
+lastIndexOfZero([-2080, 771, 2409, 2104, 2810, 0, 2562, 2408]) == 5
+lastIndexOfZero([2849, 867, 0, 571, 0, -1508, 0, -2387]) == 6
+lastIndexOfZero([]) == -1
+lastIndexOfZero([651]) == -1
+lastIndexOfZero([2238, 1035, 0, 2865]) == 2
+lastIndexOfZero([-510, -147, 0, 0, 837, 0, -660, -63, 1342]) == 5
+lastIndexOfZero([0, -1020]) == 0
+lastIndexOfZero([]) == -1
+lastIndexOfZero([-269, 1177, 0, 1916, 551, 0, 0, 94, -284, -1031]) == 6
+lastIndexOfZero([-829, -1281, 0, 2703, -2999, -1316, -970, -53, 0, 1537]) == 8
+lastIndexOfZero([-937, 1813, 0, 380, -2090, 0, -2635, -1461, 234, 0]) == 9
+lastIndexOfZero([-834, -108, 0, 2868, 0]) == 4
+lastIndexOfZero([2994, 0, -1581, 0, -434, -2405, 0, -1925, 273, 0]) == 9
+lastIndexOfZero([0]) == 0
+lastIndexOfZero([0, -965, -2840, -1504, 0]) == 4
+lastIndexOfZero([0, 1133, 2973, -2563, 0, 786]) == 4
+lastIndexOfZero([-1579, -395, 0]) == 2
+lastIndexOfZero([-2122, -895, -1249, -1866, -1436, 0, 0, -179, 2017]) == 6
+lastIndexOfZero([0, 2991, 831, -2351, -2992, 0, 31, 0, 860, 0]) == 9
+lastIndexOfZero([-261, 0, 0, -2643, 315, 2574, 0]) == 6
+lastIndexOfZero([]) == -1
+lastIndexOfZero([0, -819, -1238]) == 0
+lastIndexOfZero([1589, 1325, 2054]) == -1
+lastIndexOfZero([839, 1845, -1226, 2673, -745, -2579, 544]) == -1
+lastIndexOfZero([1370, 0, 432, 2722, 0, 0, 105]) == 5
+lastIndexOfZero([2047, 0, -968, 346, 1906, -968]) == 1
+lastIndexOfZero([0, 0, 2097, 1474, -963, 66, -1808, 828, 0, 0]) == 9
+lastIndexOfZero([0, -690, -2145, 0]) == 3
+lastIndexOfZero([0, -1961, 0, -323, 2272, 0, 0, -696]) == 6
+lastIndexOfZero([0, 0]) == 1
+lastIndexOfZero([-5, 0, 0, 2311, 0, -2598, 927, 661]) == 4
+lastIndexOfZero([0, 0, -1862, 926, 2246, 1102, -236, 2982, 945]) == 1
+lastIndexOfZero([0]) == 0
+lastIndexOfZero([1637]) == -1
+lastIndexOfZero([-1421, 1375, 337, 0]) == 3
+lastIndexOfZero([-2917, -1999, 0, 2116, 1894, 0, 1303, 0, 0]) == 8
+lastIndexOfZero([0, 0]) == 1
+lastIndexOfZero([-1457, 0, 2852, 0, 384, 0, 0]) == 6
+lastIndexOfZero([0, -1173, -1837, -1622, 729, -712, 0, -889, -1400, 2424]) == 6
+lastIndexOfZero([0, -1620, 1678, -1220, -113, -2565, -2569, -2145]) == 0
+lastIndexOfZero([2598, 626, -350, -2126]) == -1
+lastIndexOfZero([7, 2436]) == -1
+lastIndexOfZero([2826, -377, 1562, -1648, -778, 2157, 70, 2370]) == -1
+lastIndexOfZero([-2142, 2945, -723, -756, 0, 2210, -1170, -2880, -2830, 1181]) == 4
+lastIndexOfZero([-2966, 0, -1605, -2084, 0, -2810]) == 4
+lastIndexOfZero([-2564, -1073, -934, -1498, -285, 0, -149, 792]) == 5
+lastIndexOfZero([-1991, 1031, -1487]) == -1
+lastIndexOfZero([-1942, 0, 0, 2000, 1883, 0, -279, 0]) == 7
+lastIndexOfZero([0]) == 0
+lastIndexOfZero([]) == -1
+lastIndexOfZero([9, 496, 0, 0, 1455, 0, 0, 0]) == 7
+lastIndexOfZero([-994, -2532, -1050]) == -1
+lastIndexOfZero([]) == -1
+lastIndexOfZero([-281, -2788, -1897, -267, 2143, -1221]) == -1
+lastIndexOfZero([0, 425, 2354, 0, 2947, -2923, -433, -2882, -1466, 85]) == 3
+lastIndexOfZero([1211, 1369, -2326]) == -1
+lastIndexOfZero([2336, -2762, 0]) == 2
+lastIndexOfZero([0]) == 0
+lastIndexOfZero([1276, 0, 1003, 0, 1533]) == 3
+lastIndexOfZero([331, 0, -2555, -212, -240, -1385, -1729]) == 1
+lastIndexOfZero([0, 0, 2081, 0, 817, 0, 1401, -2691, 0]) == 8
+lastIndexOfZero([]) == -1
+lastIndexOfZero([0, -2344, 1883, 1196, -1898, -2723, 0]) == 6
+lastIndexOfZero([1643, 0, -1763, -803, 667, 753, 452, -1900, 0, 0]) == 9
+lastIndexOfZero([0, 0]) == 1
+lastIndexOfZero([2361]) == -1
+lastIndexOfZero([2897, 1839, -2237, 0, 0, -501, -2220, 2080, -1405]) == 4
+lastIndexOfZero([-2591, 2334, -1074, -1004, 0, -2999, -2991, 0, 0, -1113]) == 8
+lastIndexOfZero([2774, -2755]) == -1
+lastIndexOfZero([-1476, -2021, 0, -1067, 0]) == 4
+lastIndexOfZero([0, 1308, 0, -2062, 0, 831, 2494, 264, -1201, 0]) == 9
+lastIndexOfZero([2391, 0, 1609, 0]) == 3
+lastIndexOfZero([0, 1497, 0, -2377, 0, 1140, -1934, -361, -252, 0]) == 9
+lastIndexOfZero([2253, -2832, 2515, 0, 0, 2476, 0]) == 6
+lastIndexOfZero([0, 1728, 0, -1134]) == 2
+lastIndexOfZero([0, 2151, -1627, 0, 1025, 0, 0, 0, 1766, 863]) == 7
+lastIndexOfZero([-1228, -215, 0, -2866]) == 2
+lastIndexOfZero([701, 0]) == 1
+lastIndexOfZero([0, 0, 0, 0, 182, 1220]) == 3
+lastIndexOfZero([-2017, -2713]) == -1
+lastIndexOfZero([]) == -1
+lastIndexOfZero([2306, 1672, -2623, -2560, 0, 2666, 648]) == 4
+lastIndexOfZero([0, 0, 0, 485, 0, -1771, -2477, 1104]) == 4
+lastIndexOfZero([0, -797, 0, -2104, -834, -1363, -1410, 0]) == 7
+lastIndexOfZero([0, 0, 0]) == 2
+lastIndexOfZero([-1528, -2314, 284, 0, -1644]) == 3
+lastIndexOfZero([0, -2341, -1277, -922, 0, 2001, 2148, 0]) == 7
+lastIndexOfZero([]) == -1
+lastIndexOfZero([685, 823, 233, 0, 2849, -1976, 69, 1420, 0, -917]) == 8
+lastIndexOfZero([0, 684, -762, 0, -2175, 1034, 1055, -2067]) == 3
+lastIndexOfZero([-529, 429, -2881, -2243, -1022, 1308]) == -1
+lastIndexOfZero([-1138, 364]) == -1
+lastIndexOfZero([1983, 1245, -46, -1301, 0, 2581, 0, -824, 0]) == 8
+lastIndexOfZero([-1735, 0, 849, 2950, -2149, -677, -1869, -2320, 1424]) == 1
+lastIndexOfZero([1611, 589, -1458, 1198, -1979, -857, 2003, 29, 1973]) == -1
+lastIndexOfZero([-1189, 0]) == 1
+lastIndexOfZero([-1551, -1220]) == -1
+lastIndexOfZero([74, -2945, 0]) == 2
+lastIndexOfZero([2761, 1794, -1244, 0, -2919, -159]) == 3
+lastIndexOfZero([-931]) == -1
+lastIndexOfZero([1938, -192, -2473, 1231, 1479, 0, -2734]) == 5
+lastIndexOfZero([2640, -513, -2990, -2554, 0]) == 4
+lastIndexOfZero([-1821, 0, 27, 312, 0, -2102, 889]) == 4
+lastIndexOfZero([-776, -1925, -1472, -392, 0, -2715]) == 4
+lastIndexOfZero([-897, 1599, 0, 2748, 0, -2991, -2449, 667, 0]) == 8
+lastIndexOfZero([2996, -2973, -2331, 0, -2777, 0, 0, 2925, 0]) == 8
+lastIndexOfZero([1711, 0]) == 1
+lastIndexOfZero([0, 0, 0, -2633]) == 2
+lastIndexOfZero([1192, -1879]) == -1
+lastIndexOfZero([0, 2388, -255, -1606, 2721]) == 0
+lastIndexOfZero([-933, -581, -2385, 0, 0, 1911, 1950]) == 4
+lastIndexOfZero([1555, 1528, -1131]) == -1
+lastIndexOfZero([234, 0, -2337, 2599, 2572]) == 1

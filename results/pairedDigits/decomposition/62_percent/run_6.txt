@@ -1,0 +1,11 @@
+public static int pairedDigits(String input) {
+		int sum = 0;
+		for (int i = 0; i < input.length() - 1; i++) {
+			char current = input.charAt(i);
+			char next = input.charAt(i+1);
+			if (current == next) {
+				sum += Character.getNumericValue(current);
+			}
+		}
+		return sum;
+	}

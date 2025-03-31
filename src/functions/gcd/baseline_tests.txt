@@ -1,0 +1,9 @@
+Input: a = 259, b = 866  - Expected Output: 1
+Input: a = 418, b = -2014  - Expected Output: 38
+Input: a = 1349, b = -2339  - Expected Output: 1
+Input: a = -1706, b = -1378  - Expected Output: 2
+Input: a = 1520, b = 1425  - Expected Output: 95
+Input: a = 551, b = -5  - Expected Output: 1
+Input: a = -1688, b = 1127  - Expected Output: 1
+Input: a = 1391, b = -582  - Expected Output: 1
+Input: a = 175, b = 2885  - Expected Output: 5

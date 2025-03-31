@@ -1,0 +1,19 @@
+public static int pow(int x, int n) {
+	// Handle negative exponent case
+	if (n < 0) {
+		return 0;
+	}
+	
+	// Handle exponent of 0, any number to the power of 0 is 1
+	if (n == 0) {
+		return 1;
+	}
+
+	// Regular calculation of x raised to the power n
+	int y = 1;
+	for (int i = 1; i <= n; i++) {
+		y *= x;
+	}
+
+	return y;
+}

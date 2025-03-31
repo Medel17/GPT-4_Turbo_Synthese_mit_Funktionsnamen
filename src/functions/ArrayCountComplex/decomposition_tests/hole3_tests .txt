@@ -1,0 +1,4 @@
+Input: a = {}       - Expected Output: count2 = 0
+Input: a = {-10}      - Expected Output: count2 = 0
+Input: a = {10}       - Expected Output: count2 = 1
+Input: a = {1, -1, 1, -1, 1, -1} - Expected Output: count2 = 3

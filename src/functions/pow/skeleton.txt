@@ -1,0 +1,26 @@
+public static int pow(int x, int n) {
+		// ### HOLE BEGIN precondition
+
+		// ### HOLE END
+		int k = n;
+		int p = x;
+		int y = 1;
+		while (k > 0) {
+			if (k % 2 == 0) {
+				// ### HOLE BEGIN pSquared
+
+				// ### HOLE END
+				// ### HOLE BEGIN kHalf
+
+				// ### HOLE END
+			} else {
+				// ### HOLE BEGIN yTimes
+
+				// ### HOLE END
+				// ### HOLE BEGIN kDec
+
+				// ### HOLE END
+			}
+		}
+		return y;
+}

@@ -1,0 +1,8 @@
+Input: 1320  - Expected Output: true
+Input: 2392  - Expected Output: true
+Input: 2878  - Expected Output: false
+Input: 1704  - Expected Output: true
+Input: 1107  - Expected Output: false
+Input: 847  - Expected Output: false
+Input: 516  - Expected Output: true
+Input: 1082  - Expected Output: false

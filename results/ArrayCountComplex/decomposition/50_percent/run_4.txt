@@ -1,0 +1,16 @@
+public static int ArrayCountComplex(int[] a) {
+	int count1 = 0;
+	for (int element : a) {
+		if (element < 0) {
+			count1++;
+		}
+	}
+	int count2 = 0;
+	for (int element : a) {
+		if (element > 0) {
+			count2++;
+		}
+	}
+	int result = Math.min(count1, count2);
+	return result * result;
+}

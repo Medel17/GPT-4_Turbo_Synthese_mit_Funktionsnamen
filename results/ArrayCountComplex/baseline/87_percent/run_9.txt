@@ -1,0 +1,19 @@
+public static int ArrayCountComplex(int[] a) {
+    int sumOddIndices = 0;
+
+    for (int i = 1; i < a.length; i += 2) {
+        sumOddIndices += a[i];
+    }
+
+    if (sumOddIndices == 0) {
+        return 0;
+    } else {
+        int counter = 0;
+        for (int number : a) {
+            if (number > 0) {
+                counter++;
+            }
+        }
+        return counter;
+    }
+}

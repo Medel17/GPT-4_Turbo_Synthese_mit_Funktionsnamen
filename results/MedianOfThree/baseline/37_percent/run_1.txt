@@ -1,0 +1,19 @@
+public static int MedianOfThree(int a, int b, int c) {
+    if (a < b) {
+        if (c > b) {
+            return b;
+        } else if (c < a) {
+            return a;
+        } else {
+            return c;
+        }
+    } else {
+        if (c > a) {
+            return a;
+        } else if (c < b) {
+            return b;
+        } else {
+            return c;
+        }
+    }
+}

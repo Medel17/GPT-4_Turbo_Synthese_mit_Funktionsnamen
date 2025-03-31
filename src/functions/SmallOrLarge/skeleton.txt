@@ -1,0 +1,11 @@
+public static String SmallOrLarge(int n) {
+		// ### HOLE BEGIN clamp1
+
+		// ### HOLE END
+		// ### HOLE BEGIN clamp2
+
+		// ### HOLE END
+		// ### HOLE BEGIN clamp3
+
+		// ### HOLE END
+	}

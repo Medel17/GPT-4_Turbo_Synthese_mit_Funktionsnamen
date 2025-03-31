@@ -1,0 +1,11 @@
+public static boolean LeapYear(int y) {
+	// ### Missing section
+	if (y % 4 != 0) {
+        return false;
+    } else if (y % 100 != 0) {
+        return true;
+    } else {
+        return y % 400 == 0;
+    }
+    // ### End of Missing section
+}

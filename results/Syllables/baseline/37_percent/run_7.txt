@@ -1,0 +1,12 @@
+public static String syllables(String input) {
+    int count = 0;
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        if ("aeiouy".indexOf(c) != -1) { // Check if the character is a vowel or 'y'
+            if (i == 0 || "aeiouy".indexOf(input.charAt(i - 1)) == -1) { // Ensure it's either the first character or not preceded by another vowel
+                count++; // It's a start of a new syllable
+            }
+        }
+    }
+    return String.valueOf(count);
+}

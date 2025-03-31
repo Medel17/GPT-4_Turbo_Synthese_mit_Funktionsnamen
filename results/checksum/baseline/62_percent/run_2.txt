@@ -1,0 +1,7 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check += (int) input.charAt(i); // Summing ASCII values of all characters
+    }
+    return "Check sum is " + (char) (check & 0xFF); // Converting right-most 8 bits of the sum to a char
+}

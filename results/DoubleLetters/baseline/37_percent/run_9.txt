@@ -1,0 +1,15 @@
+public static String DoubleLetters(String input) {
+    String output = "";
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        int count = 2;
+
+        // Repeat each character twice by setting count to 2 and appending it in the while loop
+
+        while (count > 0) {
+            output += c;
+            count--;
+        }
+    }
+    return output;
+}

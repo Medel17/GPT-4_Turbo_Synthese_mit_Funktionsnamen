@@ -1,0 +1,15 @@
+public static int SmallestOfFour(int a, int b, int c, int d) {
+    if (a < b) {
+        if (a < c) {
+            return Math.min(a, d);
+        } else {
+            return Math.min(c, d);
+        }
+    } else {
+        if (b < c) {
+            return Math.min(b, d);
+        } else {
+            return Math.min(c, d);
+        }
+    }
+}

@@ -1,0 +1,9 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    for (int number : a) {
+        if (number > 1000 && number < 2000) {
+            count++;
+        }
+    }
+    return count;
+}

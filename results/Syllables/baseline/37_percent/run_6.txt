@@ -1,0 +1,20 @@
+public static String Syllables(String input) {
+    int count = 0;
+    String vowels = "aeiouy";
+    boolean wasLastVowel = false;
+
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        boolean isVowel = vowels.indexOf(c) != -1;
+        
+        if(isVowel && !wasLastVowel) {
+            count++;
+            wasLastVowel = true;
+        } else {
+            wasLastVowel = isVowel;
+        }
+
+    }
+    
+    return String.valueOf(count);
+}

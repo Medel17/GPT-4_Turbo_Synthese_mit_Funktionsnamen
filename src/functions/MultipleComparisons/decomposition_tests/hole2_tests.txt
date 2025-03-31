@@ -1,0 +1,4 @@
+Input: b1 = 3, b2 = 5 - Expected Output: SB = 3
+Input: b1 = 10, b2 = 2 - Expected Output: SB = 2
+Input: b1 = -1, b2 = 4 - Expected Output: SB = -1
+Input: b1 = 2147483647, b2 = -2147483648 - Expected Output: SB = -2147483648

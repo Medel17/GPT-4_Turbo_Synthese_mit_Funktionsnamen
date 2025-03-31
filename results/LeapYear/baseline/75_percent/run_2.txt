@@ -1,0 +1,11 @@
+public static boolean LeapYear(int y) {
+    if (y % 4 != 0) {
+        return false; // not a leap year if not divisible by 4
+    } else if (y % 100 != 0) {
+        return true; // is a leap year if divisible by 4 but not by 100
+    } else if (y % 400 == 0) {
+        return true; // is a leap year if divisible by 100 and by 400
+    } else {
+        return false; // not a leap year if divisible by 100 but not by 400
+    }
+}

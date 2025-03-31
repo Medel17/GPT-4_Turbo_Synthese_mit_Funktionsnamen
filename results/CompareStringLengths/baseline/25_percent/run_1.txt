@@ -1,0 +1,6 @@
+public static boolean CompareStringLengths(String str1, String str2, String str3) {
+    int length1 = str1.length();
+    int length2 = str2.length();
+    int length3 = str3.length();
+    return (length1 == length2) && (length2 == length3);
+}

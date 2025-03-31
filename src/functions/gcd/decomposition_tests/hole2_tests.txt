@@ -1,0 +1,3 @@
+Input: b = -10 - Expected Output: b = 10
+Input: b = 0 - Expected Output: b = 0
+Input: b = 15 - Expected Output: b = 15

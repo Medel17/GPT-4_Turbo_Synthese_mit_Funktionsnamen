@@ -1,0 +1,15 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    int GA;
+    if (a1 > a2) {
+        GA = a1;
+    } else {
+        GA = a2;
+    }
+    int SB;
+    if (b1 < b2) {
+        SB = b1;
+    } else {
+        SB = b2;
+    }
+    return GA - SB;
+}

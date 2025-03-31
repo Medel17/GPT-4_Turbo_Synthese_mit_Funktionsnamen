@@ -1,0 +1,10 @@
+public static String Syllables(String input) {
+    int count = 0;
+    String vowels = "aeiouy"; // 'y' can be considered a vowel in the context of counting syllables in some cases
+    for (int i = 0; i < input.length(); i++) {
+        if (vowels.indexOf(input.charAt(i)) >= 0) {
+            count++;
+        }
+    }
+    return String.valueOf(count);
+}

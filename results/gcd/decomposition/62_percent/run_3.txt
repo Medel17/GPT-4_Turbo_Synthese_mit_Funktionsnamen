@@ -1,0 +1,15 @@
+public static int gcd(int a, int b) {
+    // Handling edge cases where either a or b is zero
+    if (a == 0)
+        return b;
+    if (b == 0)
+        return a;
+    
+    // Applying Euclidean algorithm to find GCD
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}

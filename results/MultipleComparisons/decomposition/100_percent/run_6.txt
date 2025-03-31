@@ -1,0 +1,12 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    int GA, SB;
+
+    // Clamp 1: Get Maximum of a1, a2
+    GA = Math.max(a1, a2);
+
+    // Clamp 2: Get Minimum of b1, b2
+    SB = Math.min(b1, b2);
+
+    // Clamp 3: Return difference GA - SB
+    return GA - SB;
+}

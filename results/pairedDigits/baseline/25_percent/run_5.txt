@@ -1,0 +1,19 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+
+    // Ensure input length is even and greater than 1 for pairing
+    if (input.length() % 2 != 0 || input.length() <= 1) {
+        return sum;
+    }
+
+    // Iterate over the string considering two characters at a time
+    for (int i = 0; i < input.length(); i += 2) {
+        // Convert the current pair of characters to digit and check if equal
+        int firstDigit = Character.digit(input.charAt(i), 10);
+        int secondDigit = Character.digit(input.charAt(i + 1), 10);
+        if (firstDigit == secondDigit) {
+            sum += firstDigit;
+        }
+    }
+    return sum;
+}

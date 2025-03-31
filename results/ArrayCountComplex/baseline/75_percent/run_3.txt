@@ -1,0 +1,7 @@
+public static int ArrayCountComplex(int[] a) {
+    int hundredCount = 0;
+    for (int num : a) {
+        if (num % 100 == 0) hundredCount++;
+    }
+    return hundredCount;
+}

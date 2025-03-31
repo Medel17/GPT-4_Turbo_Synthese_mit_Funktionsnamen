@@ -1,0 +1,16 @@
+public static boolean MirrorImage(int[] arr1, int[] arr2) {
+    // Guard clause: to check if lengths of both array are different
+    if (arr1.length != arr2.length) {
+        return false;
+    }
+
+    int len = arr1.length;
+    for (int i = 0; i < len; i++) {
+        // Compare elements arr1[i] with reversed index in arr2
+        if (arr1[i] != arr2[len - 1 - i]) {
+            return false;
+        }
+    }
+
+    return true;
+}

@@ -1,0 +1,11 @@
+public static int MedianOfThree(int a, int b, int c) {
+    if (a < b) {
+        // ### HOLE BEGIN clamp1
+        return Math.max(a, Math.min(b, c));
+        // ### HOLE END
+    } else {
+        // ### HOLE BEGIN clamp2
+        return Math.max(b, Math.min(a, c));
+        // ### HOLE END
+    }
+}

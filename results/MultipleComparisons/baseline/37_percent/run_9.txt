@@ -1,0 +1,12 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    // Calculate sums
+    int sum1 = a1 + b1;
+    int sum2 = a2 + b2;
+    
+    // Compare and return the difference of greatest values
+    if (sum1 > sum2) {
+        return sum1 - sum2;
+    } else {
+        return sum2 - sum1;
+    }
+}

@@ -1,0 +1,7 @@
+public static int pairedDigits(String input) {
+		int sum = 0;
+		// ### HOLE BEGIN precondition
+
+		// ### End of Missing section
+
+}

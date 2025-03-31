@@ -1,0 +1,5 @@
+Input: input = "a", i = 0 - Expected Output: c = 97
+Input: input = "aeiouy", i = 2 - Expected Output: c = 105
+Input: input = " ", i = 0 - Expected Output: c = 32
+Input: input = "éclair", i = 0 - Expected Output: c = 233
+Input: input = "12345", i = 2 - Expected Output: c = 51

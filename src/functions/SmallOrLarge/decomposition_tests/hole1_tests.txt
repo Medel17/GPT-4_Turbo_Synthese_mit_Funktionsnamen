@@ -1,0 +1,3 @@
+Input: n = 999 - Expected Output: "small"
+Input: n = -1000 - Expected Output: "small"
+Input: n = 500 - Expected Output: "small"

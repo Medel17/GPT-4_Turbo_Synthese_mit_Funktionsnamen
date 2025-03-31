@@ -1,0 +1,44 @@
+public static int ArrayCountComplex(int[] a) {
+	// count occurrences of negative numbers not equal to -10
+	int count1 = 0;
+	for (int element : a) {
+		if (element < 0 && element != -10) {
+			count1++;
+		}
+	}
+	// modify count1 if certain conditions are met
+	for (int element : a) {
+		if (element == 10) {
+			count1 = 0;
+		} else if (element == -10) {
+			count1++;
+		}
+	}
+	// count occurrences of positive numbers
+	int count2 = 0;
+	for (int element : a) {
+		if (element > 0) {
+			count2++;
+		}
+	}
+	// modify count2 based on specific criteria
+	for (int element : a) {
+		if (element == 0) {
+			count2 = count2;
+		}
+		else if (element < 0) {
+			count2 = 0;
+		}
+		else if (element > 0) {
+			count2++;
+		}
+	}
+	// calculate difference between count1 and count2
+	int result = Math.abs(count1 - count2);
+	// balance adjusted difference to ensure it is divisible by 2
+	if (result % 2 != 0) {
+		result++;
+	}
+	
+	return result;
+}

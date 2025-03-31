@@ -1,0 +1,8 @@
+public static String Checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check += input.charAt(i) * (i + 1);
+    }
+    int result = check % 256; // Modulo byte size to get a character in ASCII range
+    return "Check sum is " + (char) result;
+}

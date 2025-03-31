@@ -1,0 +1,7 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    // ### Missing section
+    int maxA = Math.max(a1, a2);
+    int maxB = Math.max(b1, b2);
+    return Math.abs(maxA - maxB);
+    // ### End of Missing section
+}

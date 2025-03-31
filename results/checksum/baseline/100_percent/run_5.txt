@@ -1,0 +1,8 @@
+public static String Checksum(String input) {
+	int check = 0;
+	for (int i = 0; i < input.length(); i++) {
+		char ch = input.charAt(i);
+        check ^= (ch + i);  // Perform XOR on (character + index)
+	}
+	return "Check sum is " + (char)(check % 128);  // Compute final character, ensuring it remains a valid ASCII value
+}

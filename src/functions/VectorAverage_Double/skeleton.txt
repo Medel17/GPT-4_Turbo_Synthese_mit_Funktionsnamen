@@ -1,0 +1,15 @@
+public static double VectorAverage_Double(double[] arr) {
+	// ### HOLE BEGIN clamp1
+
+	// ### HOLE END
+	double sum = 0;
+	for (double element : arr) {
+		// ### HOLE BEGIN clamp2
+
+		// ### HOLE END
+	}
+	double length = arr.length;
+	// ### HOLE BEGIN clamp3
+
+	// ### HOLE END
+}

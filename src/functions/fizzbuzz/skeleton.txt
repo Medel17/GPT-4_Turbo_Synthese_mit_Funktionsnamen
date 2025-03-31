@@ -1,0 +1,13 @@
+public static String fizzbuzz(int x) {
+String result = "";
+// ### HOLE BEGIN fizz
+
+// ### HOLE END
+// ### HOLE BEGIN buzz
+
+// ### HOLE END
+// ### HOLE BEGIN number
+
+// ### HOLE END
+return result;
+}

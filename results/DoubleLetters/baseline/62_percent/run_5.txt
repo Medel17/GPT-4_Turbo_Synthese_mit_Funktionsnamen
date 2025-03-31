@@ -1,0 +1,18 @@
+public static String DoubleLetters(String input) {
+    String output = "";
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+
+        int count = 1; // Default count for characters to be added once
+
+        // ### Missing section
+        count = 2; // Since every character needs to be doubled
+        // ### End of Missing section
+
+        while (count > 0) {
+            output += c;
+            count--;
+        }
+    }
+    return output;
+}

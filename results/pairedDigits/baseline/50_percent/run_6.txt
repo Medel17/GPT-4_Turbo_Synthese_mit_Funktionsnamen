@@ -1,0 +1,24 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    // Checking for empty string or single character which can't have pairs
+    if (input == null || input.length() < 2) {
+        return 0;
+    }
+
+    // Initialize the variables to keep track of the current pair
+    char prevChar = input.charAt(0);
+    char currentChar;
+
+    // Iterate through the string starting from the second character
+    for (int i = 1; i < input.length(); i++) {
+        currentChar = input.charAt(i);
+        if (currentChar == prevChar) {
+            sum += Character.getNumericValue(currentChar);
+        }
+        // Update previous character to the current one for the next iteration
+        prevChar = currentChar;
+    }
+
+    // Return the cumulated sum of repeating adjacent digit pairs
+    return sum;
+}

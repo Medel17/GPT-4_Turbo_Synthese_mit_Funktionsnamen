@@ -1,0 +1,4 @@
+Input: n = 25, f = 5 - Expected Output: false
+Input: n = 155, f = 5 - Expected Output: false
+Input: n = 187, f = 11 - Expected Output: false
+Input: n = 391, f = 17 - Expected Output: false

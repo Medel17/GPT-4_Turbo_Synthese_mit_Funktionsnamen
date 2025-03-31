@@ -1,0 +1,4 @@
+Input: y = 1, p = 2 - Expected Output: y = 2
+Input: y = 0, p = 7 - Expected Output: y = 0
+Input: y = -1, p = 4 - Expected Output: y = -4
+Input: y = -3, p = -5 - Expected Output: y = 15

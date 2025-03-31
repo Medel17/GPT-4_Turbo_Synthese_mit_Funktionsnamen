@@ -1,0 +1,14 @@
+public static int pow(int x, int n) {
+    if (n < 0) {
+        return 0; // Return 0 for negative exponents as per examples
+    }
+    if (n == 0) {
+        return 1; // Any number to the power of 0 is 1, special case
+    }
+
+    int y = 1;
+    for (int i = 1; i <= n; i++) {
+        y *= x; // Repeated multiplication to simulate exponentiation
+    }
+    return y;
+}

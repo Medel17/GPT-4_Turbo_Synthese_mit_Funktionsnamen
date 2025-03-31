@@ -1,0 +1,10 @@
+public static String checksum(String input) {
+    int check = 0;
+    for (int i = 0; i < input.length(); i++) {
+        check += input.charAt(i);
+    }
+    check %= 256; // Modulo operation to ensure check is within byte range
+    
+    char resultChar = (char) check;
+    return "Check sum is " + resultChar;
+}

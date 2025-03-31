@@ -1,0 +1,5 @@
+Input: arr1[i] = 10, arr2[oppositeIndex] = 9 - Expected Output: false
+Input: arr1[i] = -1, arr2[oppositeIndex] = 1 - Expected Output: false
+Input: arr1[i] = 100, arr2[oppositeIndex] = 99 - Expected Output: false
+Input: arr1[i] = 1, arr2[oppositeIndex] = 2 - Expected Output: false
+Input: arr1[i] = -10, arr2[oppositeIndex] = -9 - Expected Output: false

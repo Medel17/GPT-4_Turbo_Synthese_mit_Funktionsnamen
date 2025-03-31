@@ -1,0 +1,11 @@
+public static int VectorAverage_Int(int[] arr) {
+		int sum = 0;
+		for (int element : arr) {
+			sum += element; // Add each element in the array to the sum
+		}
+        
+        // Calculate the average
+        // Since the output in tests seems to round toward zero (truncate the decimal), we use integer division
+        if (arr.length == 0) return 0; // edge case handling
+		return sum / arr.length;
+	}

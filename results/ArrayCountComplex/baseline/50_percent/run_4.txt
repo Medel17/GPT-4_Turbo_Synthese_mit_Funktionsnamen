@@ -1,0 +1,12 @@
+public static int ArrayCountComplex(int[] a) {
+    if (a == null || a.length == 0) {
+        return 0;
+    }
+    int count = 0;
+    for (int num : a) {
+        if (num > 0 && num % 2 == 1) {
+            count++;
+        }
+    }
+    return count;
+}

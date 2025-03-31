@@ -1,0 +1,19 @@
+public static String DoubleLetters(String input) {
+    String output = "";
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        
+        // Determine the number of times to duplicate characters
+        if (Character.isUpperCase(c) || Character.isLowerCase(c)) {
+            // Double each alphabetic character
+            output += c;
+            output += c;
+        } else {
+            // Triple non-alphabetic characters
+            output += c;
+            output += c;
+            output += c;
+        }
+    }
+    return output;
+}

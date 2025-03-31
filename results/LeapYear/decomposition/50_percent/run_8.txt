@@ -1,0 +1,12 @@
+public static boolean LeapYear(int y) {
+	// ### HOLE BEGIN clamp1
+	if (y % 4 != 0) return false;
+	// ### HOLE END
+	// ### HOLE BEGIN clamp2
+	if (y % 100 == 0) return true;
+	// ### HOLE END
+	// ### HOLE BEGIN clamp3
+	if (y % 400 == 0) return true;
+	return false;
+	// ### HOLE END
+}

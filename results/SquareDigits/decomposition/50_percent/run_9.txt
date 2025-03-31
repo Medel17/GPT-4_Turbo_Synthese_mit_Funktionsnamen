@@ -1,0 +1,18 @@
+public static String squareDigits(int x) {
+    String result = "";
+    while (x > 0) {
+        // ### HOLE BEGIN clamp1
+        int digit = x % 10;
+        // ### HOLE END
+        // ### HOLE BEGIN clamp2
+        int square = digit * digit;
+        // ### HOLE END
+        // ### HOLE BEGIN clamp3
+        result = square + result;
+        // ### HOLE END
+        // ### HOLE BEGIN clamp4
+        x /= 10;
+        // ### HOLE END
+    }
+    return result;
+}

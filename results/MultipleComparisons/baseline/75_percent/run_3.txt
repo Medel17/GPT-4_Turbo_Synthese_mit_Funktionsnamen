@@ -1,0 +1,10 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+    // Calculate the sums of two products
+    int productA = a1 * a2;
+    int productB = b1 * b2;
+
+    // Calculate the absolute difference between the products
+    int absoluteDifference = Math.abs(productA - productB);
+
+    return absoluteDifference;
+}

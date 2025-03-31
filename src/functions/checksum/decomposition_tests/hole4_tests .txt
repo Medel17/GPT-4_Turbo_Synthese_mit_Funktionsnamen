@@ -1,0 +1,3 @@
+Input: csum = 48 - Expected Output: '0'
+Input: csum = 1 - Expected Output: '\u0001'
+Input: csum = 63 - Expected Output: '?'

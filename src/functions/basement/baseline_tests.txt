@@ -1,0 +1,12 @@
+Input: []  - Expected Output: -1
+Input: [-506, 169, -1168, 45, -1583]  - Expected Output: 0
+Input: [515, 1298, -735, -161]  - Expected Output: -1
+Input: [-514, 325, 251, 495, -2289, 1781, 1531, -460, -466]  - Expected Output: 0
+Input: [957, -2336, -1891, 1957, 1446, 1185, 2434, 484, 1283]  - Expected Output: 1
+Input: [1777, -1568, -847, 1120, -378, 602, -1051, 135, -470]  - Expected Output: 2
+Input: [-1412]  - Expected Output: 0
+Input: [2373, 400]  - Expected Output: -1
+Input: [1899, 766, 1429, -1175, -430, 876, -2489]  - Expected Output: -1
+Input: [1500, -580, -407, 1715, 449, -1519, -858, -448, -2079]  - Expected Output: 7
+Input: [-408, 1085]  - Expected Output: 0
+Input: [1488, -1670]  - Expected Output: 1

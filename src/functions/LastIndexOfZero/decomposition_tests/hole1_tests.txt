@@ -1,0 +1,3 @@
+Input: index = 2, i = 4, arr[i] = 0    - Expected Output: index = 4
+Input: index = 0, i = 1, arr[i] = 5    - Expected Output: index = 0
+Input: index = 0, i = 2, arr[i] = 0    - Expected Output: index = 2

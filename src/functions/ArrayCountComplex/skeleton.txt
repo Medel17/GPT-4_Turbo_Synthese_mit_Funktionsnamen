@@ -1,0 +1,22 @@
+public static int ArrayCountComplex(int[] a) {
+	// ### HOLE BEGIN clamp1
+
+		// ### HOLE BEGIN clamp2
+
+		// ### HOLE END
+	
+	// ### HOLE END
+	// ### HOLE BEGIN clamp3
+
+		// ### HOLE BEGIN clamp4
+
+		// ### HOLE END
+	
+	// ### HOLE END
+	// ### HOLE BEGIN clamp5
+
+	// ### HOLE END
+	// ### HOLE BEGIN clamp6
+
+	// ### HOLE END
+}

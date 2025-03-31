@@ -1,0 +1,4 @@
+Input: a1 = 5, a2 = 3 - Expected Output: GA = 5
+Input: a1 = 3, a2 = 5 - Expected Output: GA = 5
+Input: a1 = -5, a2 = -3 - Expected Output: GA = -3
+Input: a1 = 2147483647, a2 = -2147483648 - Expected Output: GA = 2147483647

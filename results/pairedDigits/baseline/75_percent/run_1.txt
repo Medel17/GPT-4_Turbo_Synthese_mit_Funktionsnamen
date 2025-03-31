@@ -1,0 +1,16 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+    
+    if (input.length() < 2) return 0; // If the string is too short, no paired digits
+
+    // Loop through the string and check adjacent characters
+    for (int i = 0; i < input.length() - 1; i++) {
+        char current = input.charAt(i);
+        char next = input.charAt(i + 1);
+        if (current == next) {
+            sum += Integer.parseInt(String.valueOf(current));
+        }
+    }
+
+    return sum;
+}

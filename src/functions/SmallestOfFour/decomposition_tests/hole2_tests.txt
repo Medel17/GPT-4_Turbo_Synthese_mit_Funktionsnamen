@@ -1,0 +1,4 @@
+Input: a = 5, b = 3, c = 4, d = 6 - Expected Output: 3
+Input: a = 3, b = 10, c = 12, d = 8 - Expected Output: 8
+Input: a = -1, b = -5, c = -10, d = -3 - Expected Output: -10
+Input: a = 2, b = 2, c = 0, d = 1 - Expected Output: 0

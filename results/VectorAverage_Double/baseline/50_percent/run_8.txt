@@ -1,0 +1,15 @@
+public static double VectorAverage_Double(double[] arr) {
+	// ### Missing section
+
+	double sum = 0;
+	for (double element : arr) {
+		sum += element;  // sum all elements in the array
+	}
+	double length = arr.length;
+	if (length == 0) return 0; // check to avoid division by zero
+	double average = sum / length; // calculate average
+
+	// ### End of Missing section
+
+	return average; // return the computed average
+}

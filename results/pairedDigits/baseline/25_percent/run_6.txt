@@ -1,0 +1,23 @@
+public static int pairedDigits(String input) {
+    int sum = 0;
+
+    // Check if input is null or has less than 2 characters, no valid pairs can be formed
+    if (input == null || input.length() < 2) {
+        return 0;
+    }
+
+    // Process each character and its next neighbor in the string
+    for (int i = 0; i < input.length() - 1; i++) {
+        // Get current character and the next character
+        char current = input.charAt(i);
+        char next = input.charAt(i + 1);
+
+        // Check if current and next characters are the same and are digits
+        if (current == next && Character.isDigit(current)) {
+            // Add the numeric value of the character to the sum
+            sum += Character.getNumericValue(current);
+        }
+    }
+
+    return sum;
+}

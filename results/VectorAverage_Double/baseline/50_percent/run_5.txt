@@ -1,0 +1,8 @@
+public static double VectorAverage_Double(double[] arr) {
+    double sum = 0;
+    for (double element : arr) {
+        sum += element;  // Add each element to the sum
+    }
+    double length = arr.length;
+    return sum / length;  // Calculate the average by dividing the sum by the number of elements
+}

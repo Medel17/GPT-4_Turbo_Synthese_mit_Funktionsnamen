@@ -1,0 +1,9 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    for (int value : a) {
+        if ((Math.abs(value) % 10 == 3) && (Integer.toString(Math.abs(value)).length() == 4)) {
+            count++;
+        }
+    }
+    return count;
+}

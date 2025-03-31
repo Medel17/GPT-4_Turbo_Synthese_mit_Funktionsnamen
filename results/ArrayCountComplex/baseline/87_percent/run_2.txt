@@ -1,0 +1,20 @@
+public static int ArrayCountComplex(int[] a) {
+    int count = 0;
+    for (int i = 0; i < a.length; i++) {
+        if (isComplexNumber(a[i])) {
+            count++;
+        }
+    }
+    return count;
+}
+
+private static boolean isComplexNumber(int num) {
+    int absNum = Math.abs(num);
+    // Checking for all divisors up to the square root of num
+    for (int i = 2; i * i <= absNum; i++) {
+        if (absNum % i == 0) {
+            return false; // number is not prime
+        }
+    }
+    return num != 0 && num != 1; // Number is prime only if it is not 0 or 1
+}

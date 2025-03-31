@@ -1,0 +1,15 @@
+public static int MedianOfThree(int a, int b, int c) {
+    if (a < b) {
+        if (c < a) {  
+            return a;  // c < a < b
+        } else {
+            return Math.min(b, c);  // a < b, a <= c
+        }
+    } else {
+        if (c < b) {
+            return b;  // c < b < a
+        } else {
+            return Math.min(a, c);  // b <= a, b <= c
+        }
+    }
+}

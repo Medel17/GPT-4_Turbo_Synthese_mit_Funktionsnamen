@@ -1,0 +1,13 @@
+public static int ClampToHundred(int n) {
+    int result;
+    if (n < -100) {
+        result = -100;
+    }
+    if (n <= 100 && n >= -100) {
+        result = n;
+    }
+    if (n > 100) {
+        result = 100;
+    }
+    return result;
+}

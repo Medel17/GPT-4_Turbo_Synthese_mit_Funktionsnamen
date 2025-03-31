@@ -1,0 +1,15 @@
+public static int pow(int x, int n) {
+	// ### Missing section: calculation of power
+	if (n == 0) return 1;
+	int y = 1;
+	int base = x;
+	while (n > 0) {
+		if (n % 2 == 1) {
+			y *= base;
+		}
+		base *= base;
+		n /= 2;
+	}
+	// ### End of Missing section
+	return y;
+}

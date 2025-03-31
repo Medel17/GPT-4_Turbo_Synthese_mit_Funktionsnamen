@@ -1,0 +1,7 @@
+public static int ClampToHundred(int n) {
+    int result;
+    // ### Missing section
+
+    // ### End of Missing section
+	return result;
+	}

@@ -1,0 +1,15 @@
+public static int MultipleComparisons(int a1, int a2, int b1, int b2) {
+	// ### HOLE BEGIN clamp1
+	int GA = Math.max(a1, a2);
+	// ### HOLE END
+	// ### HOLE BEGIN clamp2
+	int SB = Math.min(b1, b2);
+	// ### HOLE END
+	// ### HOLE BEGIN clamp3
+	if (GA > SB) {
+		return GA;
+	} else {
+		return GA - SB;
+	}
+	// ### HOLE END
+}

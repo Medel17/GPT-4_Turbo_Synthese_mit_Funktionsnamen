@@ -1,0 +1,13 @@
+public static int VectorAverage_Int(int[] arr) {
+    if (arr == null || arr.length == 0) {
+        throw new IllegalArgumentException("Array must not be empty or null");
+    }
+
+    int sum = 0;
+    for (int element : arr) {
+        sum += element;
+    }
+    
+    // Calculate the average and round it to the nearest whole number
+    return (int) Math.round((double) sum / arr.length);
+}
